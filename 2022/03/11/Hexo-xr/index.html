@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://haoqi7.github.io">
-  <title>Hexo-绕过渲染 | HaoQiYung的个人博客</title>
+  <title>Hexo- 绕过渲染 | HaoQiYung的个人博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="1 Hexo 渲染&amp;emsp;&amp;emsp;在Hexo部署时会默认渲染source下的所有html页面，但有时候想在Hexo博客上单独自定义html页面或README.md时，却不希望被Hexo渲染。因此对某个文件或者目录进行排除渲染是非常必要的。 2 方法一：font matterHexo新建网站页面，然后将你的代码直接写入 index.md 中 在 Front matter 中添">
+  <meta name="description" content="1 Hexo 渲染&amp;emsp;&amp;emsp;在Hexo部署时会默认渲染source下的所有html页面，但有时候想在Hexo博客上单独自定义html页面或README.md时，却不希望被Hexo渲染。因此对某个文件或者目录进行排除渲染是非常必要的。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo-绕过渲染">
+<meta property="og:title" content="Hexo- 绕过渲染">
 <meta property="og:url" content="http://haoqi7.github.io/2022/03/11/Hexo-xr/index.html">
 <meta property="og:site_name" content="HaoQiYung的个人博客">
-<meta property="og:description" content="1 Hexo 渲染&amp;emsp;&amp;emsp;在Hexo部署时会默认渲染source下的所有html页面，但有时候想在Hexo博客上单独自定义html页面或README.md时，却不希望被Hexo渲染。因此对某个文件或者目录进行排除渲染是非常必要的。 2 方法一：font matterHexo新建网站页面，然后将你的代码直接写入 index.md 中 在 Front matter 中添">
+<meta property="og:description" content="1 Hexo 渲染&amp;emsp;&amp;emsp;在Hexo部署时会默认渲染source下的所有html页面，但有时候想在Hexo博客上单独自定义html页面或README.md时，却不希望被Hexo渲染。因此对某个文件或者目录进行排除渲染是非常必要的。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blogs2.png">
 <meta property="article:published_time" content="2022-03-11T06:35:09.000Z">
-<meta property="article:modified_time" content="2022-03-16T12:15:30.598Z">
+<meta property="article:modified_time" content="2022-03-16T13:17:56.343Z">
 <meta property="article:author" content="HaoQiYung">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="渲染">
@@ -240,7 +240,7 @@
   
   
     <h1 class="article-title" itemprop="name">
-      Hexo-绕过渲染
+      Hexo- 绕过渲染
     </h1>
   
 
@@ -261,7 +261,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">425字</span>
+      <span class="post-count">431字</span>
     </span>
   </span>
 
@@ -281,27 +281,28 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h3 id="1-Hexo-渲染"><a href="#1-Hexo-渲染" class="headerlink" title="1 Hexo 渲染"></a>1 Hexo 渲染</h3><p>&amp;emsp;&amp;emsp;在Hexo部署时会默认渲染source下的所有html页面，但有时候想在Hexo博客上单独自定义html页面或README.md时，却不希望被Hexo渲染。因此对某个文件或者目录进行排除渲染是非常必要的。</p>
-<h3 id="2-方法一：font-matter"><a href="#2-方法一：font-matter" class="headerlink" title="2 方法一：font matter"></a>2 方法一：font matter</h3><p><code>Hexo</code>新建网站页面，然后将你的代码直接写入 <code>index.md</code> 中</p>
+    <h3 id="1-Hexo- 渲染"><a href="#1-Hexo- 渲染" class="headerlink" title="1 Hexo 渲染"></a>1 Hexo 渲染</h3><p>&amp;emsp;&amp;emsp; 在 Hexo 部署时会默认渲染 source 下的所有 html 页面，但有时候想在 Hexo 博客上单独自定义 html 页面或 README.md 时，却不希望被 Hexo 渲染。因此对某个文件或者目录进行排除渲染是非常必要的。</p>
+<span id="more"></span>
+<h3 id="2- 方法一：font-matter"><a href="#2- 方法一：font-matter" class="headerlink" title="2 方法一：font matter"></a>2 方法一：font matter</h3><p><code>Hexo</code>新建网站页面，然后将你的代码直接写入 <code>index.md</code> 中</p>
 <p>在 <code>Front matter</code> 中添加 <code>layout: false</code>，此方法适用于单一的纯<code>HTML</code><br><code>CSS</code> 页面。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: tools</span><br><span class="line"><span class="built_in">date</span>: 2022-03-11 00:00:00</span><br><span class="line"><span class="built_in">type</span>: <span class="string">&quot;tools&quot;</span></span><br><span class="line">layout: <span class="literal">false</span></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 
-<h3 id="3-方法二：skip-render"><a href="#3-方法二：skip-render" class="headerlink" title="3 方法二：skip render"></a>3 方法二：skip render</h3><p>在博客根目录下的 <code>_config.yml</code>，找到 <code>skip_render</code>，大概在32行左右，写入你想要的跳过渲染的路径，注意缩进和空格。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 指定目录跳过hexo渲染</span></span><br><span class="line">skip_render:</span><br><span class="line">  - <span class="string">&#x27;tools/*&#x27;</span></span><br><span class="line">  - <span class="string">&#x27;tools/**&#x27;</span></span><br></pre></td></tr></table></figure>
+<h3 id="3- 方法二：skip-render"><a href="#3- 方法二：skip-render" class="headerlink" title="3 方法二：skip render"></a>3 方法二：skip render</h3><p>在博客根目录下的 <code>_config.yml</code>，找到 <code>skip_render</code>，大概在 32 行左右，写入你想要的跳过渲染的路径，注意缩进和空格。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 指定目录跳过 hexo 渲染</span></span><br><span class="line">skip_render:</span><br><span class="line">  - <span class="string">&#x27;tools/*&#x27;</span></span><br><span class="line">  - <span class="string">&#x27;tools/**&#x27;</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>注释：<code>tools/*</code> 表示在目录 <code>source/fireworks</code> 下的文件全部跳过渲染，<code>tools/**</code> 表示在博客根目录 <code>source/tools/</code> 文件夹下的文件全部跳过渲染（例如页面的 js、css 在另一个文件夹中）。</p>
 </blockquote>
-<h3 id="4-案例：webstack-导航"><a href="#4-案例：webstack-导航" class="headerlink" title="4 案例：webstack 导航"></a>4 案例：webstack 导航</h3><p><code>webstack</code>是一个纯静态的网址导航网站，内容均由<code>viggo</code>收集并整理。项目基于<code>bootstrap</code>前端框架开发。</p>
+<h3 id="4- 案例：webstack- 导航"><a href="#4- 案例：webstack- 导航" class="headerlink" title="4 案例：webstack 导航"></a>4 案例：webstack 导航 </h3><p><code>webstack</code> 是一个纯静态的网址导航网站，内容均由 <code>viggo</code> 收集并整理。项目基于 <code>bootstrap</code> 前端框架开发。</p>
 <p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blogs2.png" alt="image"></p>
 <ul>
 <li>Github：<a target="_blank" rel="noopener" href="https://github.com/WebStackPage/WebStackPage.github.io">https://github.com/WebStackPage/WebStackPage.github.io</a></li>
 </ul>
-<p>在博客根目录 <code>source/</code>下新建<code>tools</code>，然后新建<code>index.html</code>,将<code>webstack</code>网页源码全选复制粘贴到里面。</p>
+<p>在博客根目录 <code>source/</code>下新建 <code>tools</code>，然后新建<code>index.html</code>, 将<code>webstack</code> 网页源码全选复制粘贴到里面。</p>
 <p>然后打开博客根目录下配置文件<code>_config.yml</code>，找到<code>skip_render</code>，做如下修改：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render:</span><br><span class="line">  - <span class="string">&#x27;tools/*&#x27;</span></span><br><span class="line">  - <span class="string">&#x27;tools/**&#x27;</span></span><br></pre></td></tr></table></figure>
 
-<p>最后执行<code>hexo clean</code>和<code>hexo s -g </code>本地预览，检查无误后<code>hexo g -d</code>部署到服务器上即可。</p>
+<p>最后执行 <code>hexo clean</code> 和<code>hexo s -g </code>本地预览，检查无误后 <code>hexo g -d</code> 部署到服务器上即可。</p>
 <p>注：此文是本人在大佬的基础上进行修改，如有侵犯联系我删除。</p>
 
     
@@ -344,7 +345,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="http://haoqi7.github.io/2022/03/11/Hexo-xr/" title="Hexo-绕过渲染" target="_blank">http://haoqi7.github.io/2022/03/11/Hexo-xr/</a>
+          <a href="http://haoqi7.github.io/2022/03/11/Hexo-xr/" title="Hexo- 绕过渲染" target="_blank">http://haoqi7.github.io/2022/03/11/Hexo-xr/</a>
         </li>
         
         <li>
@@ -490,7 +491,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Hexo-%E6%B8%B2%E6%9F%93"><span class="toc-number">1.</span> <span class="toc-text">1 Hexo 渲染</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9Afont-matter"><span class="toc-number">2.</span> <span class="toc-text">2 方法一：font matter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9Askip-render"><span class="toc-number">3.</span> <span class="toc-text">3 方法二：skip render</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%A1%88%E4%BE%8B%EF%BC%9Awebstack-%E5%AF%BC%E8%88%AA"><span class="toc-number">4.</span> <span class="toc-text">4 案例：webstack 导航</span></a></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Hexo-%20%E6%B8%B2%E6%9F%93"><span class="toc-number">1.</span> <span class="toc-text">1 Hexo 渲染</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%20%E6%96%B9%E6%B3%95%E4%B8%80%EF%BC%9Afont-matter"><span class="toc-number">2.</span> <span class="toc-text">2 方法一：font matter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%20%E6%96%B9%E6%B3%95%E4%BA%8C%EF%BC%9Askip-render"><span class="toc-number">3.</span> <span class="toc-text">3 方法二：skip render</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%20%E6%A1%88%E4%BE%8B%EF%BC%9Awebstack-%20%E5%AF%BC%E8%88%AA"><span class="toc-number">4.</span> <span class="toc-text">4 案例：webstack 导航 </span></a></li></ol>
                     </div>
                 </span>
             </div>
