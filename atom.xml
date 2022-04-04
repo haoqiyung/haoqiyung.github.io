@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>思想加油站</title>
+  
+  
+  <link href="https://haoqiyung.ml/atom.xml" rel="self"/>
+  
+  <link href="https://haoqiyung.ml/"/>
+  <updated>2022-04-04T17:54:31.166Z</updated>
+  <id>https://haoqiyung.ml/</id>
+  
+  <author>
+    <name>HaoQi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>白嫖notability</title>
+    <link href="https://haoqiyung.ml/posts/d00bc300.html"/>
+    <id>https://haoqiyung.ml/posts/d00bc300.html</id>
+    <published>2022-04-04T17:54:31.166Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="分享篇" scheme="https://haoqiyung.ml/categories/%E5%88%86%E4%BA%AB%E7%AF%87/"/>
+    
+    
+    <category term="notability" scheme="https://haoqiyung.ml/tags/notability/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这是随笔文章模板</title>
+    <link href="https://haoqiyung.ml/posts/essay-demo.html"/>
+    <id>https://haoqiyung.ml/posts/essay-demo.html</id>
+    <published>2022-04-03T00:34:14.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://haoqiyung.ml/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://haoqiyung.ml/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>代码压缩</title>
+    <link href="https://haoqiyung.ml/posts/ed28d520.html"/>
+    <id>https://haoqiyung.ml/posts/ed28d520.html</id>
+    <published>2022-03-29T10:15:36.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="插件篇" scheme="https://haoqiyung.ml/categories/%E6%8F%92%E4%BB%B6%E7%AF%87/"/>
+    
+    
+    <category term="hexo" scheme="https://haoqiyung.ml/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决LeanCloud流控问题</title>
+    <link href="https://haoqiyung.ml/posts/2cc3d378.html"/>
+    <id>https://haoqiyung.ml/posts/2cc3d378.html</id>
+    <published>2022-03-23T12:05:00.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具篇" scheme="https://haoqiyung.ml/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
+    
+    
+    <category term="hexo" scheme="https://haoqiyung.ml/tags/hexo/"/>
+    
+    <category term="leancloud" scheme="https://haoqiyung.ml/tags/leancloud/"/>
+    
+    <category term="valine" scheme="https://haoqiyung.ml/tags/valine/"/>
+    
+    <category term="Github Acions" scheme="https://haoqiyung.ml/tags/Github-Acions/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PicGo+Gitee</title>
+    <link href="https://haoqiyung.ml/posts/b2bf0a77.html"/>
+    <id>https://haoqiyung.ml/posts/b2bf0a77.html</id>
+    <published>2022-03-19T00:10:30.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具篇" scheme="https://haoqiyung.ml/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
+    
+    
+    <category term="PicGo" scheme="https://haoqiyung.ml/tags/PicGo/"/>
+    
+    <category term="Gitee" scheme="https://haoqiyung.ml/tags/Gitee/"/>
+    
+    <category term="图床" scheme="https://haoqiyung.ml/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客安装及生成依赖</title>
+    <link href="https://haoqiyung.ml/posts/b223f3a8.html"/>
+    <id>https://haoqiyung.ml/posts/b223f3a8.html</id>
+    <published>2022-03-18T00:10:46.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客篇" scheme="https://haoqiyung.ml/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+    <category term="hexo" scheme="https://haoqiyung.ml/tags/hexo/"/>
+    
+    <category term="package" scheme="https://haoqiyung.ml/tags/package/"/>
+    
+    <category term="node_modules" scheme="https://haoqiyung.ml/tags/node-modules/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub Actions实现博客自动发布</title>
+    <link href="https://haoqiyung.ml/posts/6c0cf188.html"/>
+    <id>https://haoqiyung.ml/posts/6c0cf188.html</id>
+    <published>2022-03-17T10:10:46.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客篇" scheme="https://haoqiyung.ml/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+    <category term="hexo" scheme="https://haoqiyung.ml/tags/hexo/"/>
+    
+    <category term="GitHub Actions" scheme="https://haoqiyung.ml/tags/GitHub-Actions/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章模板</title>
+    <link href="https://haoqiyung.ml/posts/401e296e.html"/>
+    <id>https://haoqiyung.ml/posts/401e296e.html</id>
+    <published>2022-03-16T17:14:46.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客篇" scheme="https://haoqiyung.ml/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+    <category term="hexo" scheme="https://haoqiyung.ml/tags/hexo/"/>
+    
+    <category term="template" scheme="https://haoqiyung.ml/tags/template/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo加入豆瓣页面</title>
+    <link href="https://haoqiyung.ml/posts/216e769b.html"/>
+    <id>https://haoqiyung.ml/posts/216e769b.html</id>
+    <published>2022-03-15T10:25:00.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="插件篇" scheme="https://haoqiyung.ml/categories/%E6%8F%92%E4%BB%B6%E7%AF%87/"/>
+    
+    
+    <category term="hexo" scheme="https://haoqiyung.ml/tags/hexo/"/>
+    
+    <category term="douban" scheme="https://haoqiyung.ml/tags/douban/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>思维导图</title>
+    <link href="https://haoqiyung.ml/posts/6c27b784.html"/>
+    <id>https://haoqiyung.ml/posts/6c27b784.html</id>
+    <published>2022-03-13T17:31:55.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="插件篇" scheme="https://haoqiyung.ml/categories/%E6%8F%92%E4%BB%B6%E7%AF%87/"/>
+    
+    
+    <category term="hexo" scheme="https://haoqiyung.ml/tags/hexo/"/>
+    
+    <category term="思维导图" scheme="https://haoqiyung.ml/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工具分享（一）</title>
+    <link href="https://haoqiyung.ml/posts/15639690.html"/>
+    <id>https://haoqiyung.ml/posts/15639690.html</id>
+    <published>2022-03-12T22:13:08.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具篇" scheme="https://haoqiyung.ml/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
+    
+    
+    <category term="Github" scheme="https://haoqiyung.ml/tags/Github/"/>
+    
+    <category term="npm" scheme="https://haoqiyung.ml/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>紫砂壶介绍</title>
+    <link href="https://haoqiyung.ml/posts/55f6848b.html"/>
+    <id>https://haoqiyung.ml/posts/55f6848b.html</id>
+    <published>2022-03-11T16:05:47.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="紫砂壶篇" scheme="https://haoqiyung.ml/categories/%E7%B4%AB%E7%A0%82%E5%A3%B6%E7%AF%87/"/>
+    
+    
+    <category term="平定" scheme="https://haoqiyung.ml/tags/%E5%B9%B3%E5%AE%9A/"/>
+    
+    <category term="紫砂壶" scheme="https://haoqiyung.ml/tags/%E7%B4%AB%E7%A0%82%E5%A3%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-绕过渲染</title>
+    <link href="https://haoqiyung.ml/posts/17a22bd2.html"/>
+    <id>https://haoqiyung.ml/posts/17a22bd2.html</id>
+    <published>2022-03-11T14:35:09.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客篇" scheme="https://haoqiyung.ml/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+    <category term="Hexo" scheme="https://haoqiyung.ml/tags/Hexo/"/>
+    
+    <category term="渲染" scheme="https://haoqiyung.ml/tags/%E6%B8%B2%E6%9F%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PicGo-Github</title>
+    <link href="https://haoqiyung.ml/posts/9ea70054.html"/>
+    <id>https://haoqiyung.ml/posts/9ea70054.html</id>
+    <published>2022-03-10T14:35:41.000Z</published>
+    <updated>2022-04-04T17:54:31.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具篇" scheme="https://haoqiyung.ml/categories/%E5%B7%A5%E5%85%B7%E7%AF%87/"/>
+    
+    
+    <category term="PicGo" scheme="https://haoqiyung.ml/tags/PicGo/"/>
+    
+    <category term="图床" scheme="https://haoqiyung.ml/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="GitHub" scheme="https://haoqiyung.ml/tags/GitHub/"/>
+    
+  </entry>
+  
+</feed>

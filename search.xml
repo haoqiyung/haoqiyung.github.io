@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>白嫖notability</title>
+      <link href="/posts/d00bc300.html"/>
+      <url>/posts/d00bc300.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1、下载并安装“爱思助手”到电脑上</p><p>2、用数据线连接电脑（pc和mac都可以）和iPad，连接成功之后点击在iPad安装爱思极速版。</p><p>3、打开“爱思极速版”搜索notability，选择10.5版本下载</p><p>4、下载好之后在App Store里搜索notability，然后更新,有的会显示“获取”（下载），不要慌！就点“获取”.</p><p>5、等“更新”or“获取”好之后，点开notability,因为已经更新到最新版本了，点“关于应用”下面的“订阅”，显示classic就代表成功啦</p><p>6、确定是classic之后，可以选择卸载“爱思极速版”或已安装的notability</p><p>注意：如果显示的是starter，就把notability从iPad上进行“删除App”的操作，从第三步再多来一遍或几遍，它会成功显示“classic”的！我尝试了三次终于成功。</p><blockquote><p>本文参考链接： <a href="https://www.bilibili.com/read/cv15703964">https://www.bilibili.com/read/cv15703964</a> </p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> notability </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这是随笔文章模板</title>
+      <link href="/posts/essay-demo.html"/>
+      <url>/posts/essay-demo.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="这是博主的随笔板块，后续会更新文章，目前弄好了模板格式"><a href="#这是博主的随笔板块，后续会更新文章，目前弄好了模板格式" class="headerlink" title="这是博主的随笔板块，后续会更新文章，目前弄好了模板格式~"></a>这是博主的随笔板块，后续会更新文章，目前弄好了模板格式~</h4><div class="ipage">    <div class="ititle">节选自《你若安好便是晴天》- 前言</div>  <div class="izhengwen">  <p>几场梅雨，几卷荷风，江南已是烟水迷离。小院里湿润的青苔在雨中纯净生长。这个季节，许多人都在打听关于莲荷的消息，以及茉莉在黄昏浮动的神秘幽香。不知多少人会记得有个女子，曾经走过人间四月天，又与莲开的夏季有过相濡以沫的约定。</p>  <p>一个人，一本书，一杯茶，一帘梦。有时候，寂寞是这样叫人心动，也只有此刻，世事才会如此波澜不惊。凉风吹起书页，这烟雨让尘封在书卷里的词章和故事弥漫着潮湿的气息。独倚幽窗，看转角处的青石小巷，一柄久违的油纸伞，遮住了低过屋檐的光阴。</p>  <p>时光微凉，那一场远去的往事被春水浸泡，秋风吹拂，早已洗去铅华，清绝明净。以为历经人生匆匆聚散，尝过尘世种种烟火，应该承担岁月带给我们的沧桑。可流年分明安然无恙，而山石草木是这样毫发无伤。只是曾经许过地老天荒的城，在细雨中越发地清瘦单薄。</p>  <p>青梅煎好的茶水，还是当年的味道；而我们等候的人，不会再来。后来才知道，那一袭素色白衣的女子已化身为燕，去寻觅水乡旧巢。她走过的地方，有一树一树的花开，她呢喃的梁间，还留着余温犹存的梦。有人说，她是个冰洁的女子，所以无论人世如何变迁，她都有着美丽的容颜。有人说，她是个理智的女子，不管面临怎样的诱惑，最后都可以全身而退。</p>  <p>她叫林徽因，出生于杭州，是许多人梦中期待的白莲。她在雨雾之都伦敦，发生过一场空前绝后的康桥之恋。她爱过三个男子，爱得清醒，也爱得平静。徐志摩为她徜徉在康桥，深情地等待一场旧梦可以归来。梁思成与她携手走过千山万水，为完成使命而相约白头。金岳霖为她终身不娶，痴心不改地守候一世。可她懂得人生飘忽不定，要学会随遇而安。</p>  </div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>代码压缩</title>
+      <link href="/posts/ed28d520.html"/>
+      <url>/posts/ed28d520.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>hexo-neat 插件实现代码压缩</strong><br><strong>注意</strong>：<br>这个插件是有 Bug 的，压缩 md 文件会使 markdown 语法的代码块消失,会删除全角空格,并且博客使用apayer音乐插件，会无法循环播放音频。<br><strong>在博客站点根目录执行安装代码</strong>：</p><pre><code>npm install hexo-neat --save</code></pre><p>在博客根目录下的配置文件添加代码：</p><pre><code>neat_enable: trueneat_html:  enable: true  exclude:neat_css:  enable: true  exclude:    - &#39;*.min.css&#39;neat_js:  enable: true  mangle: true  output:  compress:  exclude:    - &#39;*.min.js&#39;</code></pre><p>然后，可以压缩代码，部署，上传博客了。</p><pre><code>hexo clhexo ghexo d</code></pre><p>补充：为了解决以上问题，在网上搜到一些解决办法，对于 matery 主题（其他主题自行解决）需要将以上默认配置修改为：</p><pre><code>neat_enable: trueneat_html:  enable: true  exclude:    - &#39;**/*.md&#39;neat_css:  enable: true  exclude:    - &#39;**/*.min.css&#39;neat_js:  enable: true  mangle: true  output:  compress:  exclude:    - &#39;**/*.min.js&#39;    - &#39;**/**/instantpage.js&#39;    - &#39;**/matery.js&#39;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 插件篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决LeanCloud流控问题</title>
+      <link href="/posts/2cc3d378.html"/>
+      <url>/posts/2cc3d378.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1.前言</p><p>最近测试的时候发现开启的LeanCloud邮件提醒无法唤醒，查看日志了解到”因流控原因，通过定时任务唤醒体验版实例失败，建议升级至标准版云引擎实例避免休眠”。然后在网上搜索了一些文章发现日期都比较老，进行修改测试后成功解决了流控问题，特此记录。</p><p>2.部署</p><p>部署方面简单说一下，网上有很多比较全的教程。</p><p>2.1创建应用</p><p>打开leancloud注册国际版账户，创建应用，选择开发版。</p><p>打开创建的应用，选择<code>云引擎</code>–&gt;<code>设置</code>–&gt;<code>云引擎域名</code>(输入自己喜欢的一个的前缀)，也可以选择绑定自己的域名，选择<code>设置</code>–&gt;<code>域名绑定</code>–&gt;<code>云引擎域名</code></p><p><code>注意：</code>一定要选择国际版，如果你选择的是<code>华北</code>或者<code>华东</code>的话，Valine后台评论管理是需要备案才能绑定的。</p><p>2.2自定义环境变量</p><p>选择<code>云引擎</code>–&gt;<code>设置</code>–&gt;<code>添加自定义环境变量</code></p><div class="table-container"><table><thead><tr><th>变量名称</th><th>示例</th><th>说明</th></tr></thead><tbody><tr><td>SITE_NAME</td><td>HaoQi</td><td><code>[必填]</code>网站名称</td></tr><tr><td>SITE_URL</td><td><a href="https://haoqiyun.top">https://haoqiyun.top</a></td><td><code>[必填]</code>网站地址</td></tr><tr><td>SMTP_USER</td><td>w00989988@163.com</td><td><code>[必填]</code>邮箱地址</td></tr><tr><td>SMTP_PASS</td><td>########</td><td><code>[必填]</code>邮箱授权码 (部分邮箱服务商默认开启SMTP)   (如果没有授权码可直接填写邮箱密码）</td></tr><tr><td>SMTP_SERVICE</td><td>163</td><td><code>[必填]</code>邮箱服务商</td></tr><tr><td>ADMIN_URL</td><td><a href="https://****sapps.us">https://****sapps.us</a></td><td><code>[可选]</code> 后台管理地址</td></tr><tr><td>SENDER_NAME</td><td>HaoQi</td><td><code>[必填]</code>寄件人名称</td></tr></tbody></table></div><p>2.3部署</p><p>选择<code>云引擎</code>–&gt;<code>部署</code>–&gt;<code>部署项目</code>–&gt;<code>Git部署</code>–&gt;<code>配置Git</code>–&gt;<code>填写下方任意一个地址</code>–&gt;<code>保存</code>–&gt;<code>生产环境</code>–&gt;<code>部署</code></p><p>项目部署地址：<a href="https://github.com/Haoqi7/valine-admin.git">https://github.com/Haoqi7/valine-admin.git</a></p><p>2.4创建定时任务</p><ol><li>定时检查24小时内漏发的邮件通知<br> 生产环境选择<code>resend_mails</code><br>选择<code>Cron表达式</code>时间自己调整<code>0 0 1 * * *</code></li><li>自动唤醒<br> 生产环境选择<code>self_wake</code><br>选择<code>Cron表达式</code>时间自己调整<code>0 0/60 0 * * ?</code></li></ol><p>2.5设置安全域名 设置博客地址</p><p>3.Github Actions</p><p>3.1在个人页面选择<code>setting</code>，点击<code>Developer settings</code>，选择<code>Personal access tokens</code>，添加一个新的TOKEN。设置名字为<code>GITHUB_TOKEN</code> ，然后勾选全部选项。</p><p>3.2接下来fork项目</p><p><a href="https://github.com/haoqiyung/WakeLean">https://github.com/haoqiyung/WakeLean</a></p><p>3.3添加评论后台</p><p>成功FORK后，进入项目的设置，选择Secrets。</p><p>name填写 SITE，Value填写你的leancloud的后台地址（ADMIN_URL）</p><p>4.0对自己的项目点个star就可以启动了，可以看actions界面是否正常运行。</p><blockquote><p>参考链接：<a href="https://cloud.tencent.com/developer/article/1628950">https://cloud.tencent.com/developer/article/1628950</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> leancloud </tag>
+            
+            <tag> valine </tag>
+            
+            <tag> Github Acions </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PicGo+Gitee</title>
+      <link href="/posts/b2bf0a77.html"/>
+      <url>/posts/b2bf0a77.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前讲到过使用 PicGo+Github 来搭建免费图床，但加载速度不是很理想。今天来分享如何使用 PicGo+Gitee 搭建图床。</p><h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>打开码云官方网站，进入你的个人仓库界面，新建仓库</p><p><img src="https://s2.loli.net/2022/03/25/7JEm3xhH1agLowO.jpg" alt="a"></p><h2 id="设置私人令牌"><a href="#设置私人令牌" class="headerlink" title="设置私人令牌"></a>设置私人令牌</h2><p><img src="https://s2.loli.net/2022/03/25/kx2z37KPCsIQ1dy.png" alt="b"></p><h2 id="配置Gitee图床"><a href="#配置Gitee图床" class="headerlink" title="配置Gitee图床"></a>配置Gitee图床</h2><p>打开PicGo软件，点击软件界面中的插件设置，然后搜索gitee，你会发现，有三个插件，我选择的是gitee-uploader 1.1.2。</p><p><img src="https://s2.loli.net/2022/03/25/RZKvIVorYGEyBC7.png" alt="c"></p><p>配置说明：</p><p><img src="https://s2.loli.net/2022/03/25/eiwhC1VbSQDO6uI.png" alt="d"></p><ul><li>repo：填写你的图床仓库名称</li><li>branch：填写分支名称</li><li>path：图片存储路径</li><li>token：填写上面教程中你设置的私人令牌</li><li>customPath：不需要填写</li><li>customUrl：不需要填写</li></ul><p>注意：gitee容量有限制，具体请看官方文档说明。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PicGo </tag>
+            
+            <tag> Gitee </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo博客安装及生成依赖</title>
+      <link href="/posts/b223f3a8.html"/>
+      <url>/posts/b223f3a8.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><strong>生成package.json文件</strong><br>package.json文件可以手工编写，也可以使用npm init命令自动生成</p><pre><code>npm init</code></pre><p>这个命令采用互动方式，要求用户回答一些问题，然后在当前目录生成一个基本的package.json文件。<br>所有问题之中，只有项目名称（name）和项目版本（version）是必填的，其他都是选填的。</p><p>文档有了package.json文件，直接使用npm install命令，就会在当前目录中安装所需要的模块。</p><pre><code> npm install</code></pre><p>如果一个模块不在package.json文件之中，可以单独安装这个模块，并使用相应的参数，将其写入package.json文件之中。</p><pre><code>npm install express --savenpm install express --save-dev</code></pre><p>上面代码表示单独安装express模块，–save参数表示将该模块写入dependencies属性，–save-dev表示将该模块写入devDependencies属性。</p><p><strong>添加node的modules</strong><br>第一种方法： 通过生成package.json文件，编辑这个文件，再通过 npm install 。 这时候，我们只需要把依赖包添加到package.json文件中。</p><p>第二种方法： 不用package.json， 而是直接通过 npm install moduleName的方式，逐个添加依赖包。</p><p><strong>node_modules的创建：</strong><br>用npm安装模块</p><p>用npm安装模块有两种方式:本地安装和全局安装。<br>如果你需要用Node.js的require来获取依赖，那么你需要的是本地安装，也就是默认的方式。如果你需要把它当做诸如gruntCLI这样的命令行工具，那就要用全局安装。</p><ul><li>本地安装<pre><code>npm install &lt;package_name&gt;</code></pre>这个命令会在当前目录下创建一个叫node_modules的文件夹，然后把安装的代码放到这个文件夹下面。</li></ul><p>检查成功了没有：</p><pre><code>npm ls node_modules</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> package </tag>
+            
+            <tag> node_modules </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>GitHub Actions实现博客自动发布</title>
+      <link href="/posts/6c0cf188.html"/>
+      <url>/posts/6c0cf188.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了方便可以使用 GitHub Actions 实现博客自动发布，将静态博客页面部署到多个服务器上，比如 GitHub Pages，Gitee pages 以及云服务器上。本文介绍使用 GitHub Actions 实现将 Hexo 博客自动编译并发布到 GitHub Pages 上。</p><h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><h3 id="SSH-秘钥"><a href="#SSH-秘钥" class="headerlink" title="SSH 秘钥"></a>SSH 秘钥</h3><p>生成秘钥用于仓库间的推送：</p><pre><code>ssh-keygen -f hexo-deploy-key -t rsa -C &quot;个人邮箱&quot;</code></pre><p>以上命令会在当前路径下生成：秘钥 hexo-deploy-key 和公钥 hexo-deploy-key.pub，然后分别添加到对应的文件中。</p><p>页面文件仓库（即 haoqi7.github.io）: 在 Settings &gt; Deploy keys 中添加 Deploy key，名称为deploy_key内容为 hexo-deploy-key.pub 文件内容，同时勾选 Allow write access 选项。<br>博客源文件库：在 Settings &gt; Secrets 中添加一个 Secret，名称为 DEPLOY_KEY，内容为 hexo-deploy-key 文件内容。后续在 Workflow 中通过名称 DEPLOY_KEY 使用这个密钥。</p><h3 id="Workflow-配置"><a href="#Workflow-配置" class="headerlink" title="Workflow 配置"></a>Workflow 配置</h3><p>在博客源文件库中点击actions创建新的工作流，配置内容如下：  </p><pre><code>name: Deployon: [push]jobs:  build:    runs-on: ubuntu-latest    name: A job to deploy blog.    steps:    - name: Checkout      uses: actions/checkout@v1      with:        submodules: true # Checkout private submodules(themes or something else).      # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)    - name: Cache node modules      uses: actions/cache@v1      id: cache      with:        path: node_modules        key: $&#123;&#123; runner.os &#125;&#125;-node-$&#123;&#123; hashFiles('**/package-lock.json') &#125;&#125;        restore-keys: |          $&#123;&#123; runner.os &#125;&#125;-node-    - name: Install Dependencies      if: steps.cache.outputs.cache-hit != &#39;true&#39;      run: npm ci        # Deploy hexo blog website.    - name: Deploy      id: deploy      uses: sma11black/hexo-action@v1.0.3      with:        deploy_key: $&#123;&#123; secrets.DEPLOY_KEY &#125;&#125;        user_name: haoqi7  # (修改为自己的用户名)        user_email: w00989988@gmail.com  # (修改为自己的邮箱地址)        commit_msg: $&#123;&#123; github.event.head_commit.message &#125;&#125;  # (or delete this input setting to use hexo default settings)    # Use the output from the `deploy` step(use for test action)    - name: Get the output      run: |        echo &quot;$&#123;&#123; steps.deploy.outputs.notify &#125;&#125;&quot;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> GitHub Actions </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章模板</title>
+      <link href="/posts/401e296e.html"/>
+      <url>/posts/401e296e.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="table-container"><table><thead><tr><th>题目</th><th>释义</th></tr></thead><tbody><tr><td>title</td><td>Markdown 的文件标题    文章标题，强烈建议填写此选项</td></tr><tr><td>date</td><td>文件创建时的日期时间    发布时间，强烈建议填写此选项，且最好保证全局唯一</td></tr><tr><td>author</td><td>_config.yml 中的 author      文章作者</td></tr><tr><td>img</td><td>featureImages 中的某个值            文章特征图，推荐使用图床来</td></tr><tr><td>top</td><td>推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章</td></tr><tr><td>cover</td><td>表示该文章是否需要加入到首页轮播封面中</td></tr><tr><td>coverImg</td><td>表示该文章在首页轮播封面需要显示的图片路径，如果没有则默认使用文章的特色图片</td></tr><tr><td>password</td><td>文章阅读密码，如果要对文章设置阅读验证密码的话，该值必须是用 SHA256 加密后的密码。前提是在主题的 config.yml 中激活了 verifyPassword 选项</td></tr><tr><td>toc</td><td>（目录）是否开启 TOC，可以针对某篇文章单独关闭 TOC 的功能。前提是在主题的 config.yml 中激活了 toc 选项</td></tr><tr><td>mathjax</td><td>是否开启数学公式支持 ，本文章是否开启 mathjax，且需要在主题的 _config.yml 文件中也需要开启才行</td></tr><tr><td>summary</td><td>文章摘要，自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</td></tr><tr><td>categories</td><td>文章分类，本主题的分类表示宏观上大的分类，只建议一篇文章一个分类</td></tr><tr><td>tags</td><td>文章标签，一篇文章可以多个标签</td></tr><tr><td>reprintPolicy</td><td>文章转载规则， 可以是 cc_by, cc_by_nd, cc_by_sa, cc_by_nc, cc_by_nc_nd, cc_by_nc_sa, cc0, noreprint 或 pay 中的一个</td></tr><tr><td>comment</td><td>评论</td></tr><tr><td>abbrlink</td><td>文章唯一链接</td></tr></tbody></table></div><p><strong>示例：</strong></p><pre><code>title: themedate: 2022-03-016 09:25:00author: HaoQiimg: /source/images/xxx.jpgtop: truecover: truecoverImg: /images/1.jpgpassword: 8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92toc: falsemathjax: falsesummary: 这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要categories: Markdowntags:  - Typora  - Markdown</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> template </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo加入豆瓣页面</title>
+      <link href="/posts/216e769b.html"/>
+      <url>/posts/216e769b.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1安装豆瓣插件"><a href="#1安装豆瓣插件" class="headerlink" title="1安装豆瓣插件"></a>1安装豆瓣插件</h2><pre><code>npm install hexo-douban --save</code></pre><h2 id="2配置文件"><a href="#2配置文件" class="headerlink" title="2配置文件"></a>2配置文件</h2><p>在博客站点目录的配置文件_config.yml 下，添加如下配置：</p><pre><code>douban:   user: ***    #这个需要修改为你个人的id    builtin: true   #如果想生成豆瓣页面，这个需要设置为true  book:       title: &#39;This is my book title&#39;       quote: &#39;This is my book quote&#39;   movie:       title: &#39;This is my movie title&#39;       quote: &#39;This is my movie quote&#39;   game:       title: &#39;This is my game title&#39;       quote: &#39;This is my game quote&#39;   timeout: 10000</code></pre><p>user:：你的豆瓣 ID。打开豆瓣，登入账户，然后在右上角点击 ” 个人主页 “，这时候地址栏的 URL 大概是这样：<a href="https://www.douban.com/people/xxxxxx/">https://www.douban.com/people/xxxxxx/</a> ，其中的”xxxxxx” 就是你的个人 ID 了。<br>builtin：是否将生成页面的功能嵌入 hexo s 和 hexo g 中，默认是 false ，另一可选项为 true 。<br>title： 该页面的标题。<br>quote： 写在页面开头的一段话，支持 html 语法。<br>timeout： 爬取数据的超时时间，默认是 10000ms，如果在使用时发现报了超时的错 (ETIMEOUT) 可以把这个数据设置的大一点。<br>如果只想显示某一个页面 (比如 movie)，那就把其他的配置项注释掉即可。</p><p>然后再主题配置文件_config.yml 中添加关于此页面的菜单：(下面是我的配置)</p><pre><code>  媒体:     url: /movies    icon: fas fa-heartbeat    children:       - name: 电影        url: /movies        icon: fas fa-film      - name: 书单        url: /books        icon: fas fa-book      - name: 游戏        url: /games        icon: fas fa-gamepad</code></pre><h2 id="3适配matery主题"><a href="#3适配matery主题" class="headerlink" title="3适配matery主题"></a>3适配matery主题</h2><p>在 /themes/hexo-theme-matery/layout 文件夹下面创建一个名为 douban.ejs 的文件，并将下面的内容复制进去：</p><pre><code>&lt;%- partial(&#39;_partial/post-cover&#39;) %&gt; &lt;style&gt;     .hexo-douban-picture img &amp;#123;        width: 100%;     &amp;#125; &lt;/style&gt;&lt;main class=&quot;content&quot;&gt;     &lt;div id=&quot;contact&quot; class=&quot;container chip-container&quot;&gt;         &lt;div class=&quot;card&quot;&gt;             &lt;div class=&quot;card-content&quot; style=&quot;padding: 30px&quot;&gt;                 &lt;h1 style=&quot;margin: 10px 0 10px 0px;&quot;&gt;&lt;%= page.title %&gt;&lt;/h1&gt;                 &lt;%- page.content %&gt;             &lt;/div&gt;         &lt;/div&gt;         &lt;div class=&quot;card&quot;&gt;             &lt;div class=&quot;card-content&quot; style=&quot;text-align: center&quot;&gt;                 &lt;h3 style=&quot;margin: 5px 0 5px 5px;&quot;&gt;如果你有好的内容推荐，欢迎在下面留言！&lt;/h3&gt;             &lt;/div&gt;         &lt;/div&gt;         &lt;div class=&quot;card&quot;&gt;             &lt;% if (theme.gitalk &amp;&amp; theme.gitalk.enable) &amp;#123; %&gt;                &lt;%- partial(&#39;_partial/gitalk&#39;) %&gt;            &lt;% &amp;#125; %&gt;             &lt;% if (theme.gitment.enable) &amp;#123; %&gt;                 &lt;%- partial(&#39;_partial/gitment&#39;) %&gt;             &lt;% &amp;#125; %&gt;             &lt;% if (theme.disqus.enable) &amp;#123; %&gt;                 &lt;%- partial(&#39;_partial/disqus&#39;) %&gt;             &lt;% &amp;#125; %&gt;             &lt;% if (theme.livere &amp;&amp; theme.livere.enable) &amp;#123; %&gt;                 &lt;%- partial(&#39;_partial/livere&#39;) %&gt;             &lt;% &amp;#125; %&gt;             &lt;% if (theme.valine &amp;&amp; theme.valine.enable) &amp;#123; %&gt;                 &lt;%- partial(&#39;_partial/valine&#39;) %&gt;             &lt;% &amp;#125; %&gt;         &lt;/div&gt;     &lt;/div&gt; &lt;/main&gt;</code></pre><hr><h2 id="4修改配置文件"><a href="#4修改配置文件" class="headerlink" title="4修改配置文件"></a>4修改配置文件</h2><p>在博客站点目录下的 node_modules 文件夹下找到 hexo-douban/lib，文件夹下有三个 js 文件，分别为：books-generator.js 、games-generator.js 、movies-generator.js，用文本编辑器打开这三个文件，并将其文件内容末尾的代码修改为一下内容：</p><p>/<em> 原文件内容为 layout: [<code>page</code>, <code>post</code>] ，将其修改为下面的内容</em>/</p><p>layout: [<code>page</code>, <code>douban</code>]</p><p>最后就是使用并生成相应的页面，执行命令如下:</p><pre><code>hexo douban</code></pre><h2 id="5注意事项"><a href="#5注意事项" class="headerlink" title="5注意事项"></a>5注意事项</h2><p>1.node.js版本为12.20.2，才能抓取豆瓣页面。我的hexo -v 6.0.0    npm -v 6.14.11</p><p>2.抓取豆瓣</p><pre><code>-h, --help    # 帮助页面-b, --books   # 只生成书单页面-g, --games   # 只生成游戏页面-m, --movies  # 只生成电影页面</code></pre><p>3.一天抓取次数达上限将抓取为0，次日恢复抓取。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 插件篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> douban </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>思维导图</title>
+      <link href="/posts/6c27b784.html"/>
+      <url>/posts/6c27b784.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p> <strong>推荐一款在github的开源项目hexo-markmap。</strong> </p><h2 id="hexo-markmap"><a href="#hexo-markmap" class="headerlink" title="hexo-markmap"></a>hexo-markmap</h2><p>在你的博客中使用markdown插入思维导图，使用markmap。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre><code>npm install hexo-markmap</code></pre><p> <strong>或</strong></p><pre><code>yarn add hexo-markmap</code></pre><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><pre><code>&amp;#123;% markmap 300px %&amp;#125;- Testa  - test1  - test2- Testb  - test1  - test2&amp;#123;%endmarkmap%&amp;#125;</code></pre><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2>    <div class="markmap-container" style="height:300px">      <svg data="{"t":"root","d":0,"v":"","c":[{"t":"list_item","d":2,"p":{"lines":[0,1]},"v":"Java基础语法","c":[{"t":"list_item","d":4,"p":{"lines":[1,2]},"v":"关键字"},{"t":"list_item","d":4,"p":{"lines":[2,3]},"v":"标识符"}]},{"t":"list_item","d":2,"p":{"lines":[3,4]},"v":"Java面向对象","c":[{"t":"list_item","d":4,"p":{"lines":[4,5]},"v":"基本概念","c":[{"t":"list_item","d":6,"p":{"lines":[5,6]},"v":"类"},{"t":"list_item","d":6,"p":{"lines":[6,7]},"v":"对象"}]},{"t":"list_item","d":4,"p":{"lines":[7,8]},"v":"三大支柱","c":[{"t":"list_item","d":6,"p":{"lines":[8,9]},"v":"封装"},{"t":"list_item","d":6,"p":{"lines":[9,10]},"v":"多态"},{"t":"list_item","d":6,"p":{"lines":[10,11]},"v":"继承"}]},{"t":"list_item","d":4,"p":{"lines":[11,12]},"v":"相关内容","c":[{"t":"list_item","d":6,"p":{"lines":[12,13]},"v":"访问修饰符"},{"t":"list_item","d":6,"p":{"lines":[13,14]},"v":"抽象类"},{"t":"list_item","d":6,"p":{"lines":[14,15]},"v":"接口"}]}]}],"p":{}}"/>    </div>      <style>.markmap-container{display:flex;justify-content:center;margin:0 auto;width:90%;height:500px}.markmap-container svg{width:100%;height:100%}@media(max-width:768px){.markmap-container{height:400px}}</style>    <script src="https://cdn.jsdelivr.net/npm/d3@6"></script>    <script src="https://cdn.jsdelivr.net/npm/markmap-view"></script>    <script> document.querySelectorAll('.markmap-container>svg').forEach(mindmap => markmap.Markmap.create(mindmap, null, JSON.parse(mindmap.getAttribute('data'))))</script>  ]]></content>
+      
+      
+      <categories>
+          
+          <category> 插件篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 思维导图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>工具分享（一）</title>
+      <link href="/posts/15639690.html"/>
+      <url>/posts/15639690.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><p> <strong>分享一款可以自由访问Github以及自由更换npm源的工具，以下内容取自作者README的描述，本人只做分享。</strong></p><p><strong>项目地址：</strong><a href="https://gitee.com/docmirror/dev-sidecar">https://gitee.com/docmirror/dev-sidecar</a></p></blockquote><h2 id="dev-sidecar"><a href="#dev-sidecar" class="headerlink" title="dev-sidecar"></a>dev-sidecar</h2><p>开发者边车，命名取自service-mesh的service-sidecar，意为为开发者打辅助的边车工具（以下简称ds）<br>通过本地代理的方式将https请求代理到一些国内的加速通道上</p><blockquote><p>———————————————重要提醒1————————————————-</p><p>注意：由于electron无法监听windows的关机事件，开着ds情况下直接重启电脑，会导致无法上网，你可以手动启动ds即可恢复网络，你也可以将ds设置为开机自启。</p></blockquote><p>&gt;</p><blockquote><p>———————————————重要提醒2————————————————-</p><p>注意：本应用启动会自动修改系统代理，所以会与其他vpn、fq等代理软件有冲突，请务必不要一起使用。<br>本应用主要目的在于直连访问github，如果你已经有飞机了，那建议还是不要用这个自行车（ds）了</p></blockquote><h2 id="一、-特性"><a href="#一、-特性" class="headerlink" title="一、 特性"></a>一、 特性</h2><h3 id="1、-dns优选（解决-污染问题）"><a href="#1、-dns优选（解决-污染问题）" class="headerlink" title="1、 dns优选（解决*污染问题）"></a>1、 dns优选（解决<em>*</em>污染问题）</h3><ul><li>根据网络状况智能解析最佳域名ip地址，获取最佳网络速度     </li><li>解决一些网站和库无法访问或访问速度慢的问题</li><li>建议遇到打开比较慢的国外网站，可以优先尝试将该域名添加到dns设置中（注意：被<em>*</em>封杀的无效）      </li></ul><h3 id="2、-请求拦截"><a href="#2、-请求拦截" class="headerlink" title="2、 请求拦截"></a>2、 请求拦截</h3><ul><li>拦截打不开的网站，代理到加速镜像站点上去。    </li><li>可配置多个镜像站作为备份    </li><li>具备测速机制，当访问失败或超时之后，自动切换到备用站点，使得目标服务高可用</li></ul><h3 id="3、-github加速"><a href="#3、-github加速" class="headerlink" title="3、 github加速"></a>3、 github加速</h3><ul><li>github 直连加速 (通过修改sni实现，感谢 <a href="https://github.com/dotnetcore/FastGithub">fastGithub</a> 提供的思路)</li><li>release、source、zip下载加速</li><li>clone 加速</li><li>头像加速</li><li>解决readme中图片引用无法加载的问题</li><li>gist.github.com 加速</li><li>解决git push 偶尔失败需要输入账号密码的问题（fatal: TaskCanceledException encountered  /  fatal: HttpRequestException encountered）</li><li>raw/blame加速</li></ul><blockquote><p>以上部分功能通过<code>X.I.U</code>的油猴脚本实现， 以下是仓库和脚本下载链接，大家可以去支持一下。</p><ul><li><a href="https://github.com/XIU2/UserScript">https://github.com/XIU2/UserScript</a></li><li><a href="https://greasyfork.org/scripts/412245">https://greasyfork.org/scripts/412245</a>  </li></ul><p>由于此脚本在ds中是打包在本地的，更新会不及时，你可以直接通过浏览器安装油猴插件使用此脚本，从而获得最新更新（ds本地的可以通过<code>加速服务-&gt;基本设置-&gt;启用脚本</code>进行关闭）。</p></blockquote><h3 id="4、-Stack-Overflow-加速"><a href="#4、-Stack-Overflow-加速" class="headerlink" title="4、 Stack Overflow 加速"></a>4、 Stack Overflow 加速</h3><ul><li>将ajax.google.com代理到加速CDN上     </li><li>recaptcha 图片验证码加速</li></ul><h3 id="5、-npm加速"><a href="#5、-npm加速" class="headerlink" title="5、 npm加速"></a>5、 npm加速</h3><ul><li>支持开启npm代理</li><li>官方与淘宝npm registry一键切换,</li><li>某些npm install的时候，并且使用cnpm也无法安装时，可以尝试开启npm代理再试</li></ul><p><strong><em>安全警告</em></strong>：</p><ul><li>请勿使用来源不明的服务地址，有隐私和账号泄露风险</li><li>本应用及服务端承诺不收集任何信息。介意者请使用安全模式。</li></ul><h2 id="二、快速开始"><a href="#二、快速开始" class="headerlink" title="二、快速开始"></a>二、快速开始</h2><p>支持windows、Mac、Linux(Ubuntu)</p><h3 id="DevSidecar桌面应用"><a href="#DevSidecar桌面应用" class="headerlink" title="DevSidecar桌面应用"></a>DevSidecar桌面应用</h3><h4 id="1-下载安装包"><a href="#1-下载安装包" class="headerlink" title="1 下载安装包"></a>1 下载安装包</h4><ul><li>release下载<br><a href="https://gitee.com/docmirror/dev-sidecar/releases">Gitee Release</a><br><a href="https://github.com/docmirror/dev-sidecar/releases">Github Release</a>  </li></ul><blockquote><p>Windows: 请选择DevSidecar-x.x.x.exe<br>Mac: 请选择DevSidecar-x.x.x.dmg<br>Ubuntu: 请选择DevSidecar-x.x.x.deb<br>其他linux: 请选择DevSidecar-x.x.x.AppImage (未做测试，不保证能用) </p><p>linux安装说明请参考 <a href="./doc/linux.md">linux安装文档</a> </p><p>注意：由于没有买应用证书，所以应用在下载安装时会有“未知发行者”等安全提示，选择保留即可。</p></blockquote><h4 id="2-安装后打开"><a href="#2-安装后打开" class="headerlink" title="2 安装后打开"></a>2 安装后打开</h4><blockquote><p>注意：mac版安装需要在“系统偏好设置-&gt;安全性与隐私-&gt;通用”中解锁并允许应用安装</p></blockquote><h4 id="3-安装根证书"><a href="#3-安装根证书" class="headerlink" title="3 安装根证书"></a>3 安装根证书</h4><p>第一次打开会提示安装证书，根据提示操作即可      </p><blockquote><p>根证书是本地随机生成的，所以不用担心根证书的安全问题（本应用不收集任何用户信息）<br>你也可以在加速服务设置中自定义根证书（PEM格式的证书与私钥）    </p><p>火狐浏览器需要<a href="#3浏览器打开提示证书不受信任">手动安装证书</a> </p></blockquote><h4 id="4-开始加速吧"><a href="#4-开始加速吧" class="headerlink" title="4 开始加速吧"></a>4 开始加速吧</h4><p>去试试打开github   </p><h2 id="三、模式说明"><a href="#三、模式说明" class="headerlink" title="三、模式说明"></a>三、模式说明</h2><h3 id="安全模式"><a href="#安全模式" class="headerlink" title="安全模式"></a>安全模式</h3><ul><li>此模式：关闭拦截、关闭增强、开启dns优选、开启测速</li><li>最安全，无需安装证书，可以在浏览器地址栏左侧查看域名证书</li><li>功能也最弱，只有特性1，相当于查询github的国外ip，手动改hosts一个意思。</li><li>github的可访问性不稳定，取决于IP测速，如果有绿色ip存在，就 <code>有可能</code> 可以直连访问。</li></ul><h3 id="默认模式"><a href="#默认模式" class="headerlink" title="默认模式"></a>默认模式</h3><ul><li>此模式：开启拦截、关闭增强、开启dns优选、开启测速</li><li>需要安装证书，通过修改sni直连访问github</li><li>功能上包含特性1/2/3/4。</li></ul><h2 id="四、-最佳实践"><a href="#四、-最佳实践" class="headerlink" title="四、 最佳实践"></a>四、 最佳实践</h2><ul><li>把dev-sidecar一直开着就行了（注意windows下开着ds重启电脑，会无法上网，重新打开ds即可。）</li><li>建议遇到打开比较慢的国外网站，可以尝试将该域名添加到dns设置中（注意：被GFW封杀的无效）</li></ul><h3 id="其他加速"><a href="#其他加速" class="headerlink" title="其他加速"></a>其他加速</h3><ol><li><p>git clone 加速      </p><p>方式1：快捷复制：     </p><blockquote><p>开启脚本支持，然后在复制clone链接下方，即可复制到加速链接    </p></blockquote><p>方式2：</p><blockquote><p>使用方式用实际的名称替换{}的内容，即可加速clone<br><a href="https://hub.fastgit.org/{username}/{reponame}.git">https://hub.fastgit.org/{username}/{reponame}.git</a><br>clone 出来的 remote “origin” 为fastgit的地址，需要手动改回来<br>你也可以直接使用他们的clone加速工具 <a href="https://github.com/FastGitORG/fgit-go">fgit-go</a></p></blockquote></li><li><p>github.com的镜像网站(注意：不能登录)   </p><blockquote><ol><li><a href="https://hub.fastgit.org/">hub.fastgit.org</a> </li><li><a href="https://github.com.cnpmjs.org/">github.com.cnpmjs.org</a> 这个很容易超限</li></ol></blockquote></li></ol><h2 id="五、api"><a href="#五、api" class="headerlink" title="五、api"></a>五、api</h2><h3 id="拦截配置"><a href="#拦截配置" class="headerlink" title="拦截配置"></a>拦截配置</h3><p>没有配置域名的不会拦截，其他根据配置进行拦截处理</p><pre class=" language-lang-js"><code class="language-lang-js">const intercepts = &#123;  // 要拦截的域名  'github.com': &#123;     //需要拦截url的正则表达式     '/.*/.*/releases/download/': &#123;        //拦截类型        // redirect:url,  临时重定向(url会变，一些下载资源可以通过此方式配置)        // proxy:url,     代理（url不会变，没有跨域问题）        // abort:true,    取消请求（适用于被GFW封锁的资源，找不到替代，直接取消请求，快速失败，节省时间）        // success:true,  直接返回成功请求（某些请求不想发出去，可以伪装成功返回）        redirect: 'download.fastgit.org'      &#125;,      '.*':&#123;         proxy:'github.com',          sni:'baidu.com' //修改sni，规避***握手拦截      &#125;   &#125;,   'ajax.googleapis.com': &#123;     '.*': &#123;       proxy: 'ajax.loli.net', //代理请求，url不会变       backup: ['ajax.proxy.ustclug.org'], //备份，当前代理请求失败后，将会切换到备用地址       test: 'ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js',       replace:'/(.*)/xxx'//当加速地址的链接和原链接不是完全相同时，可以通过正则表达式replace，此时proxy通过$1$2来重组url， proxy:'ajax.loli.net/xxx/$1'     &#125;   &#125;,   'clients*.google.com': &#123;      '.*':&#123;        abort: true //取消请求，被GFW封锁的资源，找不到替代，直接取消请求，快速失败，节省时间      &#125;    &#125;       &#125;</code></pre><h3 id="DNS优选配置"><a href="#DNS优选配置" class="headerlink" title="DNS优选配置"></a>DNS优选配置</h3><p>某些域名解析出来的ip会无法访问，（比如api.github.com会被解析到新加坡的ip上，新加坡的服务器在上午挺好，到了晚上就卡死，基本不可用）<br>通过从dns上获取ip列表，切换不同的ip进行尝试，最终会挑选到一个最快的ip</p><pre class=" language-lang-js"><code class="language-lang-js"> dns: &#123;    mapping: &#123;      //      'api.github.com': 'usa', // "解决push的时候需要输入密码的问题",      'gist.github.com': 'usa' // 解决gist无法访问的问题      "*.githubusercontent.com": "usa" // 解决github头像经常下载不到的问题    &#125;  &#125;,</code></pre><p>注意：暂时只支持IPv4的解析</p><h2 id="六、问题排查"><a href="#六、问题排查" class="headerlink" title="六、问题排查"></a>六、问题排查</h2><h3 id="1、dev-sidecar的前两个开关没有处于打开状态"><a href="#1、dev-sidecar的前两个开关没有处于打开状态" class="headerlink" title="1、dev-sidecar的前两个开关没有处于打开状态"></a>1、dev-sidecar的前两个开关没有处于打开状态</h3><ol><li>尝试将开关按钮手动打开</li><li>请尝试右键dev-sidecar图标，点退出。再重新打开</li><li>如果还不行，请将日志发送给作者</li></ol><p>如果是mac系统，可能是下面的原因</p><h4 id="Mac系统使用时，首页的系统代理开关无法打开"><a href="#Mac系统使用时，首页的系统代理开关无法打开" class="headerlink" title="Mac系统使用时，首页的系统代理开关无法打开"></a>Mac系统使用时，首页的系统代理开关无法打开</h4><p>出现这个问题可能是没有开启系统代理命令的执行权限   </p><pre><code>networksetup -setwebproxy &#39;WiFi&#39; 127.0.0.1 1181 #看是否有如下错误提示** Error: Command requires admin privileges.</code></pre><p>如果有上面的错误提示，请尝试如下两种方法：</p><p>1、 取消访问偏好设置需要管理员密码<br>系统偏好设置—&gt;安全性与隐私—&gt; 通用—&gt; 高级—&gt; 访问系统范围的偏好设置需要输入管理员密码（取消勾选）</p><p>2、 可能是由于安装了xcode，但未授权导致<br>请在终端输入如下命令进行授权</p><pre><code>sudo xcodebuild -license# 一直按回车，该agree的时候输入agree即可</code></pre><p>然后再次尝试看是否能够打开系统代理开关<br>如果还不行，请联系作者</p><h3 id="2、没有加速效果"><a href="#2、没有加速效果" class="headerlink" title="2、没有加速效果"></a>2、没有加速效果</h3><p><strong><em>本应用仅支持https加速，请务必确认你访问的网站地址是https开头的</em></strong>    </p><ol><li><p>本应用仅支持https加速<br>请务必确认你访问的地址是https开头的<br>比如： <a href="https://github.com/">https://github.com/</a></p></li><li><p>检查浏览器是否装了什么插件，与ds有冲突</p></li><li><p>检查是否安装了其他代理软件，与ds有冲突</p></li><li><p>请确认浏览器的代理设置为使用IE代理/或者使用系统代理状态</p></li><li><p>可以尝试换个浏览器试试</p></li><li><p>请确认网络代理设置处于勾选状态<br>正常情况下dev-sidecar在“系统代理”开关打开时，会自动设置代理。</p></li></ol><h3 id="3、浏览器打开提示证书不受信任"><a href="#3、浏览器打开提示证书不受信任" class="headerlink" title="3、浏览器打开提示证书不受信任"></a>3、浏览器打开提示证书不受信任</h3><ul><li><p>windows: 请确认证书已正确安装在“信任的根证书颁发机构”下    </p></li><li><p>mac: 请确认证书已经被安装并已经设置信任。   </p></li><li><p>火狐浏览器：火狐浏览器不走系统的根证书，需要在选项中添加根证书<br>1、火狐浏览器-&gt;选项-&gt;隐私与安全-&gt;证书-&gt;查看证书<br>2、证书颁发机构-&gt;导入<br>3、选择证书文件<code>C:\Users(用户)\Administrator(你的账号)\.dev-sidecar\dev-sidecar.ca.crt</code>（Mac或linux为<code>~/.dev-sidecar</code>目录）<br>4、勾选信任由此证书颁发机构来标识网站，确定即可      </p></li></ul><h3 id="4-打开github显示连接超时"><a href="#4-打开github显示连接超时" class="headerlink" title="4. 打开github显示连接超时"></a>4. 打开github显示连接超时</h3><pre class=" language-lang-html"><code class="language-lang-html">DevSidecar Warning:Error: www.github.com:443, 代理请求超时</code></pre><p>如果是安全模式，则是因为不稳定导致的，等一会再刷新试试<br>如果是增强模式，则是由于访问人数过多，正常现象</p><h3 id="5、某些原本可以打开的网站打不开了"><a href="#5、某些原本可以打开的网站打不开了" class="headerlink" title="5、某些原本可以打开的网站打不开了"></a>5、某些原本可以打开的网站打不开了</h3><p>1、可以尝试关闭pac<br>2、可以将域名加入白名单</p><h3 id="6、应用意外关闭导致没有网络了"><a href="#6、应用意外关闭导致没有网络了" class="headerlink" title="6、应用意外关闭导致没有网络了"></a>6、应用意外关闭导致没有网络了</h3><p>应用开启后会自动修改系统代理设置，正常退出会自动关闭系统代理<br>当应用意外关闭时，可能会因为没有将系统代理恢复，从而导致完全无法上网。</p><p> 对于此问题有如下几种解决方案可供选择：<br> 1、重新打开应用即可（右键应用托盘图标可完全退出，将会正常关闭系统代理设置）<br> 2、如果应用被卸载了，此时需要<a href="./doc/recover.md">手动关闭系统代理设置</a><br> 3、如果你是因为开着ds的情况下重启电脑导致无法上网，你可以设置ds为开机自启   </p><h3 id="7、卸载应用后上不了网，git请求不了"><a href="#7、卸载应用后上不了网，git请求不了" class="headerlink" title="7、卸载应用后上不了网，git请求不了"></a>7、卸载应用后上不了网，git请求不了</h3><p>如果你在卸载应用前，没有正常退出app，就有可能无法上网。请按如下步骤操作恢复您的网络：</p><p>1、关闭系统代理设置，参见：<a href="./doc/recover.md">手动关闭系统代理设置</a><br>2、执行下面的命令关闭git的代理设置(如果你开启过git.ext的开关)</p><pre class=" language-lang-shell"><code class="language-lang-shell">git config --global --unset http.proxygit config --global --unset https.proxy</code></pre><p>3、执行下面的命令关闭npm的代理设置(如果你开启过npm加速的开关)</p><pre class=" language-lang-shell"><code class="language-lang-shell">npm config delete proxynpm config delete https-proxy</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Github </tag>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>紫砂壶介绍</title>
+      <link href="/posts/55f6848b.html"/>
+      <url>/posts/55f6848b.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>平定陶冶历史悠久，原材料质优量丰，手艺人技高数多。据山西《平定县志》记载：晚清民国时，平定有手工陶业作坊，皆生产日用陶器。后经有识之士提议，聘请宜兴紫砂名匠，指导制做出了色泽自然，淳朴古雅的具有地方风韵的砂器。</p><p> 平定紫砂，器类丰富，造型多样，装饰各异，尤其“仿生树桩”装饰风格与金文、诗句、绘画装饰搭配，颇具特色，其中所蕴含的那种文人雅趣与平定“文献名邦”的精神内核相得益彰，故诞生之后即名噪一时，“堪与南制货物（宜兴紫砂）相媲美”，逐渐形成，“南宜兴，北平定”的品牌格局，成为一张响亮的文化名。</p><p>为了弘扬传统文化，本期收藏版立足古州，特精选这些具有代表性的平定紫砂作品，和读者共赏。</p><center>铺首衔环汉洗铭对瓶</center><p> <img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/zishahu/1.png" width="330" height="220" align="left">  </p><p>铺首衔环汉洗铭对瓶，椭圆口，直颈，斜肩，长方体身，座足外撇。肩下饰贴塑模印38个寿字，瓶身左右各塑铺首衔环，底座饰贴塑蕉叶纹。方瓶的一面刻篆书“章和元年堂狼造”及隶书“摹汉章和洗铭七字白纯束敬制”等字样，另一面刻山水图：崇山层峦叠嶂，松树挺拔葳蕤。并题诗“翠叠春山又几重，绿阴深处万千松。熏风更带微寒意，吹得诗翁策短筇云亭”等，底款为“平定陶业公司”六字篆书。</p><p>此对瓶器型巨大，胎体细腻，是平定紫砂的精品。首衔环是汉代画像石刻的一种图案，它是由饕餮逐渐演化而来。饕餮是一种中国传统的神兽，因为这种神兽凶恶、贪婪，所以一般让其衔环，作为铺首置于大门上，用以驱邪，在此起装饰作用。“章和元年堂狼造”是描摹汉章和洗铭上的篆书。</p><p>洗铭文字是刻在铜洗底部的文字，洗是古人盥洗时用来盛水的器皿，相当于现在的脸盆。因为主要使用青铜器铸造而成，人们习惯把它们称为铜洗或青铜洗，又因为今天存世的铜洗多为汉代制造，人们又把它们称为汉洗。它最早出现在战国晚期，《仪礼》“设洗直于东荥”，郑玄注：“洗，所以承盥者弃水器也。”洗一般作圆形，敞口，直腹或敛腹，平底，有的器壁两侧有辅首衔环，内底常有双鱼或羊做装饰，铭文多见吉祥语或纪年铭。章和是东汉汉章帝刘炟的年号，章和元年就是公元87年。此铭应该是纪年铭。</p><center>“富贵寿考”插屏</center> <img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/zishahu/2.jpg" width="360" height="240" style="float:right">“富贵寿考”插屏，平面长方形，高40厘米，宽29.5厘米，紫砂胎质。正面红釉，剔刻牡丹，几束盛开的牡丹，花朵鲜艳夺目，层次分明，叶子脉络清晰，舒卷自如，好似微风吹拂中婆娑起舞，极有动感，又如一位国色天香的姑娘，翩翩起舞，楚楚动人。行刻流畅，刀法俊逸爽利。左上角雕刻有“金衣瑞羽”四字，以及“乙丑孟冬之月""平定厂""南云刻”字样，交代了插屏制作的时间、制作的工厂和雕刻之人。背面黑釉，刻题富贵寿考，下为叙事长文，落款内务部记名前平定县知事吉廷彦敬题。整件作品书画兼具、相得益彰，体现了平定紫砂素雅的特性。该插屏为文房陈设用器。为时任平定知县的吉廷彦在转任前送于山西巡按使金道坚的礼物。插屏内文记述了吉廷彦为官之初即受知于金道坚，并在金升任山西巡按使后前往拜谒，对谈获知这位按台大人在负责山西全境治安之时，体察民间疾苦、整饬吏治、诛缴匪徒，使得民心安定、路人称颂的事迹。作为一心为民的清官，吉廷彦定是倍感鼓舞，故在即将转任的1915年冬，特意让平定工厂制作了一方紫砂插镜赠与金大人，以谢知遇之恩。而1915年正是平定紫砂改良大获成功之年，该插屏也成为平定紫砂的早期代表作品。<center>紫砂五件供器</center> <img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/zishahu/5.png" width="550" height="300" alt="紫砂五件供器" align="left">紫砂五件供器，红紫砂材质，由香炉1件、烛台1对、花觚1对组成。香炉呈鼎式，子母口，沿上有双耳、束颈、鼓腹，腹面阴刻“日利千金”四字，腹下有三足，足上兽头虎足，烛台小口，长颈，下有托盘，座束腰，近足处外撇。花觚大撇口，长颈，球腹，足外撇。器物釉面红润，造型规整，素朴文静，高贵雅致，且一套完整，不失为见证民国时期社平定社会文化风貌和紫砂生产工艺难得一见的珍品。五供，是民间祭祀用盛供品的五件器皿，又称泰山五供、佛前五供。由香炉一只、烛台与花觚各一对组成，香炉为点香礼神之用，花觚为供花之用，烛台为点灯之用，五件器皿成一套，合称五供。摆放于宗祠庙宇，祭奠先祖（或信徒供奉神、佛）用来安放香、花、灯、水、果等供品。五供一般有玉石、铜、锡、瓷、珐琅等材质，大多工艺考究、造型古朴。道教中，称五供为五献。在拜表、炼度、施食等仪式中都有五供一节。其法乃是将五种献祭品，即香、花、灯、水、果献于神坛之上，道士称：五献皆圆满，奉上众真前，志在求忏悔，亡者早升天。<center>“三友”红泥壶</center> <img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/zishahu/7.png" width="420" height="260" alt="红泥壶" align="left">“三友”红泥壶，口径长34厘米，底径48厘米，高14厘米，方口，束颈，扁腹。松干形凸钮，竹节形弯流，梅干形曲柄，造型独具匠心。一面口沿下刻“逸民氏制”，字下五片竹叶，翠竹一枝与流相接。另一面沿下刻“三友”，三朵梅花绽放，两朵含苞欲放，一分为二的梅枝从柄上横斜而出。松干形盖钮坑坑洼洼，上端枝上结着六个松球。竹宁折不屈，梅傲然挺立，松四季长春，民间的“岁寒三友”在此集于一身，让人看了不由肃然起敬。底款为“平定复新工厂”篆书。“三友”即“岁寒三友”，指的是坚忍不拔的苍松、直节中空的翠竹、傲雪凌霜的寒梅，因为三者都有终年不凋、刚毅坚韧的高洁风格，所以被世人美称为“岁寒三友”，是人格高尚的象征。苍松在万物萧疏的隆冬依旧郁郁葱葱、精神抖擞，象征着青春常在和坚强不屈，在文人墨客的心目中有着极高的地位。翠竹因竹茎中空而喻谦虚，竹节分明而喻有节操，常年不凋、坚贞挺拔而喻高风亮节，备受文人雅士的青睐。梅花因不畏寒冬、傲然卓立的高贵品格，同样也深受文人雅士的喜爱，故称君子当坚贞如梅。 逸民即江祖臣，字案卿，江苏宜兴人，清末民初制壶好手，人称“狮球王”。民国四年，和吴云根等四人到到山西平定平民陶器厂任技师,传授制陶技艺，这把“三友”紫砂壶，就是当时江祖臣在平定烧制的紫砂壶。<center>孔雀蓝挂釉紫砂竹节壶</center><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/zishahu/8.png" width="400" height="270" alt="孔雀蓝挂釉紫砂竹节壶" align="right">孔雀蓝挂釉紫砂竹节壶，沿口、短颈、鼓肩、筒形腹、矮圈足，高6厘米，口径5.8厘米，底径6.5厘米。造型取材于竹子，竹腹一节，粗壮扁矮，稳重而挺拔。壶流二节，刚直遒劲。通体施孔雀蓝釉，釉面光洁细薄，釉色鲜亮明艳，古穆而不失幽靓，观之赏心悦目。一面用墨彩书“兰为王者香”五个楷书大字及“平民工厂出品”六个小字；一面用简略的笔画绘墨彩兰花一束，几片纤细的的叶子，几朵淡淡的小花，淡雅而婀娜。器底素胎，款识为“平定知事吉廷彦监制”篆书。不过，令人遗憾的是，壶把损坏，壶盖丢失。</p><p>吉廷彦，字硕卿，号东圆，山西翼城人。民国二至六年担任平定县知事。曾挂帅参与平定砂器改良，使平定紫砂获得了新生，发扬光大。</p><p>紫砂挂釉是借鉴瓷器施釉工艺形成的产品，它是在烧成的紫砂素器上施釉上彩，再入窑进行二次，甚至多次烧制而成的，工艺复杂、耗时费力、制作成本高。紫砂挂釉工艺让紫砂器有了跟多的表现形式，满足了人们的审美需求，也使日常清洁护理更加方便。但是釉料掩盖了紫砂固有的天然肌理，也将紫砂泥特有的透气性埋没掉，不利于散热、保鲜、驻味，故一般不在茶壶上使用。平定的紫砂挂釉器物，釉面光亮，釉层较厚，不透明。造型多样，主要应用在笔筒、水盂、印盒等文房用品和瓶、盘、盆、罐等陈设品上。</p><p>注：本篇素材取自<a href="https://m.sohu.com/a/505104716_121124401">互联网</a>，用于宣传紫砂文化。</p><p>  版权归原作者所有，侵权请联系本站删除。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 紫砂壶篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 平定 </tag>
+            
+            <tag> 紫砂壶 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo-绕过渲染</title>
+      <link href="/posts/17a22bd2.html"/>
+      <url>/posts/17a22bd2.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="1-Hexo-渲染"><a href="#1-Hexo-渲染" class="headerlink" title="1 Hexo 渲染"></a>1 Hexo 渲染</h3><p>&emsp;&emsp;在Hexo部署时会默认渲染source下的所有html页面，但有时候想在Hexo博客上单独自定义html页面或README.md时，却不希望被Hexo渲染。因此对某个文件或者目录进行排除渲染是非常必要的。</p><h3 id="2-方法一：font-matter"><a href="#2-方法一：font-matter" class="headerlink" title="2 方法一：font matter"></a>2 方法一：font matter</h3><p><code>Hexo</code>新建网站页面，然后将你的代码直接写入 <code>index.md</code> 中</p><p>在 <code>Front matter</code> 中添加 <code>layout: false</code>，此方法适用于单一的纯<code>HTML</code><br><code>CSS</code> 页面。</p><pre class=" language-lang-bash"><code class="language-lang-bash">---title: toolsdate: 2022-03-11 00:00:00type: "tools"layout: false---</code></pre><h3 id="3-方法二：skip-render"><a href="#3-方法二：skip-render" class="headerlink" title="3 方法二：skip render"></a>3 方法二：skip render</h3><p>在博客根目录下的 <code>_config.yml</code>，找到 <code>skip_render</code>，大概在32行左右，写入你想要的跳过渲染的路径，注意缩进和空格。</p><pre class=" language-lang-bash"><code class="language-lang-bash"># 指定目录跳过hexo渲染skip_render:  - 'tools/*'  - 'tools/**'</code></pre><blockquote><p>注释：<code>tools/*</code> 表示在目录 <code>source/fireworks</code> 下的文件全部跳过渲染，<code>tools/**</code> 表示在博客根目录 <code>source/tools/</code> 文件夹下的文件全部跳过渲染（例如页面的 js、css 在另一个文件夹中）。</p></blockquote><h3 id="4-案例：webstack-导航"><a href="#4-案例：webstack-导航" class="headerlink" title="4 案例：webstack 导航"></a>4 案例：webstack 导航</h3><p><code>webstack</code>是一个纯静态的网址导航网站，内容均由<code>viggo</code>收集并整理。项目基于<code>bootstrap</code>前端框架开发。</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blogs2.png" alt="image"></p><ul><li>Github：<a href="https://github.com/WebStackPage/WebStackPage.github.io">https://github.com/WebStackPage/WebStackPage.github.io</a></li></ul><p>在博客根目录 <code>source/</code>下新建<code>tools</code>，然后新建<code>index.html</code>,将<code>webstack</code>网页源码全选复制粘贴到里面。</p><p>然后打开博客根目录下配置文件<code>_config.yml</code>，找到<code>skip_render</code>，做如下修改：</p><pre class=" language-lang-bash"><code class="language-lang-bash">skip_render:  - 'tools/*'  - 'tools/**'</code></pre><p>最后执行<code>hexo clean</code>和<code>hexo s -g</code>本地预览，检查无误后<code>hexo g -d</code>部署到服务器上即可。</p><p>注：此文是本人在大佬的基础上进行修改，如有侵犯联系我删除。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 渲染 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PicGo-Github</title>
+      <link href="/posts/9ea70054.html"/>
+      <url>/posts/9ea70054.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我一直在用的 GitHub图床，方便快捷，搭建起来也比较方便，还没有限制。</p><h3 id="1-PicGO-介绍"><a href="#1-PicGO-介绍" class="headerlink" title="1 PicGO 介绍"></a>1 PicGO 介绍</h3><p>PicGo是一款图片上传工具，目前支持多个图床。其中GitHub比较免费且最可靠的。</p><ul><li>GitHub地址：<a href="https://github.com/Molunerfinn/PicGo">https://github.com/Molunerfinn/PicGo</a></li></ul><h3 id="2-GitHub-图床"><a href="#2-GitHub-图床" class="headerlink" title="2 GitHub 图床"></a>2 GitHub 图床</h3><h4 id="01-创建GitHub图床仓库"><a href="#01-创建GitHub图床仓库" class="headerlink" title="01. 创建GitHub图床仓库"></a>01. 创建GitHub图床仓库</h4><p>首先需要有一个登录GitHub的账号，没有的话去<a href="https://github.com/">GitHub官网</a>注册一个</p><p>创建一个新的图床仓库，点击右上角的New repository</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog1.png" alt></p><p>填写如下配置信息，然后Create创建仓库</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog6.jpg" alt></p><h4 id="2-获取GitHub-token值"><a href="#2-获取GitHub-token值" class="headerlink" title="2. 获取GitHub token值"></a>2. 获取GitHub token值</h4><p>点击右上的头像，选择设置Setting</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog7.jpg" alt></p><p>点击选择Developer settings 然后点击 Generate New token</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog8.jpg" alt></p><p>填写如下配置信息，只要勾选repo选项即可，然后页面拉到底部点击Generate token 即可</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog9.jpg" alt></p><p>此时会跳转到带有token的页面，将token值复制记录下来，之后用PicGo绑定GitHub图床时会利用到</p><h3 id="3-PicGo-配置"><a href="#3-PicGo-配置" class="headerlink" title="3 PicGo 配置"></a>3 PicGo 配置</h3><h4 id="01-绑定GitHub图床"><a href="#01-绑定GitHub图床" class="headerlink" title="01. 绑定GitHub图床"></a>01. 绑定GitHub图床</h4><p>首先下载安装好PicGo软件，然后在右列表找到GitHub图床配置</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog10.jpg" alt></p><p><strong>001. 设定仓库名(必填)：</strong> </p><p>按照“GitHub账户名/仓库名的格式填写”，比如我的是：Haoqi7/imgbed</p><p><strong>002. 设定分支名(必填)：</strong> </p><p>仓库分支名填写”master”或者”main”，视情况而定。GitHub 官方表示,从2020年10月1日起,在该平台上创建的所有新的源代码仓库将默认被命名为”main”。</p><p><strong>003. 设定Token(必填)：</strong> </p><p>将之前步骤的Token值复制粘贴到这里</p><p><strong>004. 指定存储路径：</strong> </p><p>这个选项可以为空，如果想将图片上传到仓库的指定目录下，可以填写目录名加/，比如我的imgbed仓库下有个post文件夹，需设置为 post/</p><p><strong>005. 设定自定义域名：</strong> </p><p>这里统一用jsdelivr的CDN加速域名，在上传图片后成功后，PicGo会将“自定义域名+上传的图片名”生成的访问链接</p><pre><code>自定义域名格式：https://cdn.jsdelivr.net/gh/GitHub账户名/仓库名以我的格式为例：https://cdn.jsdelivr.net/gh/Haoqi7/imgbed</code></pre><p>配置完全部信息后，点击 设为默认图床，最后点击确定即可</p><h4 id="02-上传图片到图床"><a href="#02-上传图片到图床" class="headerlink" title="02. 上传图片到图床"></a>02. 上传图片到图床</h4><p>在上传区上传图片，可支持本地图片上传(可多选图片)、剪贴板上传、URL上传等三种方式。上传图片成功后，选择你想要生成的图片链接格式</p><p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blogs.jpg" alt></p><h4 id="03-PicGo-注意事项"><a href="#03-PicGo-注意事项" class="headerlink" title="03. PicGo 注意事项"></a>03. PicGo 注意事项</h4><p>如果配置完PicGo后却上传图片失败，可以参考以下方法：</p><ol><li>检查自定义域名是否正确</li><li>仓库名不要有空格</li><li>图片名字不要带有特殊符号，如：%、+、*、空格等</li><li>建议开启时间戳重命名，防止图片名字重复</li><li>上传图片间歇太短，需在PicGo设置中关闭Server选项</li><li>PicGo应用不稳定因素，需重启应用</li></ol><p>注：此文是本人在大佬的基础上进行修改，如有侵犯联系我删除。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PicGo </tag>
+            
+            <tag> 图床 </tag>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
