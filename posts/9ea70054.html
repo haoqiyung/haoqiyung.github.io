@@ -1430,18 +1430,18 @@ h3:hover {
 </ul>
 <h3 id="2-GitHub-图床"><a href="#2-GitHub-图床" class="headerlink" title="2 GitHub 图床"></a>2 GitHub 图床</h3><h4 id="01-创建GitHub图床仓库"><a href="#01-创建GitHub图床仓库" class="headerlink" title="01. 创建GitHub图床仓库"></a>01. 创建GitHub图床仓库</h4><p>首先需要有一个登录GitHub的账号，没有的话去<a target="_blank" rel="noopener" href="https://github.com/">GitHub官网</a>注册一个</p>
 <p>创建一个新的图床仓库，点击右上角的New repository</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog1.png" alt></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog1.png" alt></p>
 <p>填写如下配置信息，然后Create创建仓库</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog6.jpg" alt></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog6.jpg" alt></p>
 <h4 id="2-获取GitHub-token值"><a href="#2-获取GitHub-token值" class="headerlink" title="2. 获取GitHub token值"></a>2. 获取GitHub token值</h4><p>点击右上的头像，选择设置Setting</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog7.jpg" alt></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog7.jpg" alt></p>
 <p>点击选择Developer settings 然后点击 Generate New token</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog8.jpg" alt></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog8.jpg" alt></p>
 <p>填写如下配置信息，只要勾选repo选项即可，然后页面拉到底部点击Generate token 即可</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog9.jpg" alt></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog9.jpg" alt></p>
 <p>此时会跳转到带有token的页面，将token值复制记录下来，之后用PicGo绑定GitHub图床时会利用到</p>
 <h3 id="3-PicGo-配置"><a href="#3-PicGo-配置" class="headerlink" title="3 PicGo 配置"></a>3 PicGo 配置</h3><h4 id="01-绑定GitHub图床"><a href="#01-绑定GitHub图床" class="headerlink" title="01. 绑定GitHub图床"></a>01. 绑定GitHub图床</h4><p>首先下载安装好PicGo软件，然后在右列表找到GitHub图床配置</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog10.jpg" alt></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blog10.jpg" alt></p>
 <p><strong>001. 设定仓库名(必填)：</strong> </p>
 <p>按照“GitHub账户名/仓库名的格式填写”，比如我的是：Haoqi7/imgbed</p>
 <p><strong>002. 设定分支名(必填)：</strong> </p>
@@ -1457,7 +1457,7 @@ h3:hover {
 以我的格式为例：https://cdn.jsdelivr.net/gh/Haoqi7/imgbed
 </code></pre><p>配置完全部信息后，点击 设为默认图床，最后点击确定即可</p>
 <h4 id="02-上传图片到图床"><a href="#02-上传图片到图床" class="headerlink" title="02. 上传图片到图床"></a>02. 上传图片到图床</h4><p>在上传区上传图片，可支持本地图片上传(可多选图片)、剪贴板上传、URL上传等三种方式。上传图片成功后，选择你想要生成的图片链接格式</p>
-<p><img src="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blogs.jpg" alt></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/post/blogs.jpg" alt></p>
 <h4 id="03-PicGo-注意事项"><a href="#03-PicGo-注意事项" class="headerlink" title="03. PicGo 注意事项"></a>03. PicGo 注意事项</h4><p>如果配置完PicGo后却上传图片失败，可以参考以下方法：</p>
 <ol>
 <li>检查自定义域名是否正确</li>
@@ -2941,5 +2941,11 @@ $(function () {
             }
         });
     </script>
-</body>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>

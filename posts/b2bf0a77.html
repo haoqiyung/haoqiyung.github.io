@@ -1425,12 +1425,12 @@ h3:hover {
             <div id="articleContent">
                 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前讲到过使用 PicGo+Github 来搭建免费图床，但加载速度不是很理想。今天来分享如何使用 PicGo+Gitee 搭建图床。</p>
 <h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><p>打开码云官方网站，进入你的个人仓库界面，新建仓库</p>
-<p><img src="https://s2.loli.net/2022/03/25/7JEm3xhH1agLowO.jpg" alt="a"></p>
-<h2 id="设置私人令牌"><a href="#设置私人令牌" class="headerlink" title="设置私人令牌"></a>设置私人令牌</h2><p><img src="https://s2.loli.net/2022/03/25/kx2z37KPCsIQ1dy.png" alt="b"></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://s2.loli.net/2022/03/25/7JEm3xhH1agLowO.jpg" alt="a"></p>
+<h2 id="设置私人令牌"><a href="#设置私人令牌" class="headerlink" title="设置私人令牌"></a>设置私人令牌</h2><p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://s2.loli.net/2022/03/25/kx2z37KPCsIQ1dy.png" alt="b"></p>
 <h2 id="配置Gitee图床"><a href="#配置Gitee图床" class="headerlink" title="配置Gitee图床"></a>配置Gitee图床</h2><p>打开PicGo软件，点击软件界面中的插件设置，然后搜索gitee，你会发现，有三个插件，我选择的是gitee-uploader 1.1.2。</p>
-<p><img src="https://s2.loli.net/2022/03/25/RZKvIVorYGEyBC7.png" alt="c"></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://s2.loli.net/2022/03/25/RZKvIVorYGEyBC7.png" alt="c"></p>
 <p>配置说明：</p>
-<p><img src="https://s2.loli.net/2022/03/25/eiwhC1VbSQDO6uI.png" alt="d"></p>
+<p><img src="https://s2.loli.net/2022/04/06/FInlY7wsmpdzSvT.gif" data-original="https://s2.loli.net/2022/03/25/eiwhC1VbSQDO6uI.png" alt="d"></p>
 <ul>
 <li>repo：填写你的图床仓库名称</li>
 <li>branch：填写分支名称</li>
@@ -2914,5 +2914,11 @@ $(function () {
             }
         });
     </script>
-</body>
+<script>
+            window.imageLazyLoadSetting = {
+                isSPA: false,
+                preloadRatio: 1,
+                processImages: null,
+            };
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=o;var e=n.imageLazyLoadSetting.isSPA,i=n.imageLazyLoadSetting.preloadRatio||1,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function o(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight*i||document.documentElement.clientHeight*i)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},t.src!==i&&(n.src=i)}()}o(),n.addEventListener("scroll",function(){var t,e;t=o,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>
