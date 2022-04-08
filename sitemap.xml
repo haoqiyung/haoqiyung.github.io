@@ -170,6 +170,13 @@
   </url>
   
   <url>
+    <loc>https://haoqiyung.ml/posts/550.html</loc>
+    
+    <lastmod>2022-04-08</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://haoqiyung.ml/posts/7981.html</loc>
     
     <lastmod>2022-04-08</lastmod>
@@ -411,6 +418,13 @@
   
   <url>
     <loc>https://haoqiyung.ml/tags/typora/</loc>
+    <lastmod>2022-04-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://haoqiyung.ml/tags/label/</loc>
     <lastmod>2022-04-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
