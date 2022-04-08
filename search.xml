@@ -31,31 +31,6 @@
     
     
     <entry>
-      <title>白嫖notability</title>
-      <link href="/posts/d00bc300.html"/>
-      <url>/posts/d00bc300.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1、下载并安装“爱思助手”到电脑上</p><p>2、用数据线连接电脑（pc和mac都可以）和iPad，连接成功之后点击在iPad安装爱思极速版。</p><p>3、打开“爱思极速版”搜索notability，选择10.5版本下载</p><p>4、下载好之后在App Store里搜索notability，然后更新,有的会显示“获取”（下载），不要慌！就点“获取”.</p><p>5、等“更新”or“获取”好之后，点开notability,因为已经更新到最新版本了，点“关于应用”下面的“订阅”，显示classic就代表成功啦</p><p>6、确定是classic之后，可以选择卸载“爱思极速版”或已安装的notability</p><p>注意：如果显示的是starter，就把notability从iPad上进行“删除App”的操作，从第三步再多来一遍或几遍，它会成功显示“classic”的！我尝试了三次终于成功。</p><blockquote><p>本文参考链接： <a href="https://www.bilibili.com/read/cv15703964">https://www.bilibili.com/read/cv15703964</a> </p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分享篇 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> notability </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>hexo站点文件详解</title>
       <link href="/posts/ef7.html"/>
       <url>/posts/ef7.html</url>
@@ -73,6 +48,31 @@
         <tags>
             
             <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>白嫖notability</title>
+      <link href="/posts/d00bc300.html"/>
+      <url>/posts/d00bc300.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>1、下载并安装“爱思助手”到电脑上</p><p>2、用数据线连接电脑（pc和mac都可以）和iPad，连接成功之后点击在iPad安装爱思极速版。</p><p>3、打开“爱思极速版”搜索notability，选择10.5版本下载</p><p>4、下载好之后在App Store里搜索notability，然后更新,有的会显示“获取”（下载），不要慌！就点“获取”.</p><p>5、等“更新”or“获取”好之后，点开notability,因为已经更新到最新版本了，点“关于应用”下面的“订阅”，显示classic就代表成功啦</p><p>6、确定是classic之后，可以选择卸载“爱思极速版”或已安装的notability</p><p>注意：如果显示的是starter，就把notability从iPad上进行“删除App”的操作，从第三步再多来一遍或几遍，它会成功显示“classic”的！我尝试了三次终于成功。</p><blockquote><p>本文参考链接： <a href="https://www.bilibili.com/read/cv15703964">https://www.bilibili.com/read/cv15703964</a> </p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> notability </tag>
             
         </tags>
       
