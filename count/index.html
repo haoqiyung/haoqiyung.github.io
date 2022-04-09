@@ -439,13 +439,6 @@ class="themespring" -->
       </li>
       
       <li>
-        <a href="/life">
-          
-          <span>LifeRestart</span>
-        </a>
-      </li>
-      
-      <li>
         <a target="_blank" rel="noopener" href="http://50tz705845.wicp.vip">
           
           <span>Music-A</span>
@@ -751,14 +744,6 @@ class="themespring" -->
                   <a href="/chromedragon " style="margin-left:75px">
 				  
 		          <span>GameDragon</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/life " style="margin-left:75px">
-				  
-		          <span>LifeRestart</span>
                   </a>
                 </li>
               
@@ -1141,9 +1126,7 @@ class="themespring" -->
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/haoqiyung/cdn/photo/wy1.JPG)');
 </script>
 
 
@@ -1462,6 +1445,65 @@ class="themespring" -->
   }
 </style>
 <footer class="page-footer bg-color">
+  
+  <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="hidess col l8 offset-l2 m10 offset-m1 s12"
+                   server="tencent"
+                   type="playlist"
+                   id="1576508643"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.6'
+                   list-folded='true'
+        >
+        </meting-js>
+        <style>
+            .hidess .aplayer-lrc {
+                display: none!important;
+            }
+        </style>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
   
 
   <div class="container row center-align"
