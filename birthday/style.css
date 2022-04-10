@@ -3,14 +3,14 @@
 @media screen and (min-width:300px){
 
   body{
-    background: url('https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/tuku/自然风景 (4).jpg');
+    background: url('https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/tuku/动漫风景 (6).jpg');
     background-attachment: fixed;
     background-blend-mode: hard-light;
     zoom: 0.67;
   }
   
   .container{
-    background: url('https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/tuku/自然风景 (4).jpg');
+    background: url('https://cdn.jsdelivr.net/gh/Haoqi7/imgbed/tuku/动漫风景 (6).jpg');
     width:80%;
     margin: 5% auto;
     padding: 11% 5%;
