@@ -450,7 +450,7 @@ class="themespring" -->
       <li>
         <a target="_blank" rel="noopener" href="https://camt.vercel.app/">
           
-          <span>CatchCat</span>
+          <span>catchcat</span>
         </a>
       </li>
       
@@ -767,7 +767,7 @@ class="themespring" -->
 
                   <a target="_blank" rel="noopener" href="https://camt.vercel.app/ " style="margin-left:75px">
 				  
-		          <span>CatchCat</span>
+		          <span>catchcat</span>
                   </a>
                 </li>
               
@@ -1618,6 +1618,33 @@ h3:hover {
             
         </div>
     </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'cf937fa871cee4bf31e7',
+        clientSecret: 'effd18b4a2f8642204685c67e84434ed857fa9ef',
+        repo: 'gitalk-lssue',
+        owner: 'haoqi7',
+        admin: "haoqi7",
+        id: '2022-03-11T16-05-47',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
 
     
 
