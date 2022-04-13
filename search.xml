@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>hexo添加页面加载动画</title>
+      <link href="/posts/6bc2.html"/>
+      <url>/posts/6bc2.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>在hexo博客主题文件<code>_config.yml</code>中添加</p><pre><code># 开启页面加载动画preloader:  enable: true</code></pre><p>打开主题目录中 <code>/layout/_partial /head.ejs</code>文件，将 以下内容填入<code>&lt;head&gt;</code> 标签中。</p><pre class=" language-lang-html"><code class="language-lang-html"><link rel="stylesheet" type="text/css" href="<%- theme.jsDelivr.url %><%- url_for('/css/loading.css') %>"></code></pre><p>打开主题目录 中<code>/layout/layout.ejs</code>文件，将 以下内容填入<code>&lt;body&gt;</code> 标签中。</p><pre><code>&lt;%- partial(&#39;_widget/loading&#39;) %&gt;</code></pre><h3 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h3><p>在主题目录<code>/layout/_widget</code>下添加<code>loading.ejs</code>文件</p><pre><code>&lt;% if (theme.preloader.enable) &amp;#123; %&gt;&lt;div id=&quot;loading-box&quot;&gt;    &lt;div class=&quot;loading-left-bg&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;loading-right-bg&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;spinner-box&quot;&gt;        &lt;div class=&quot;configure-border-1&quot;&gt;            &lt;div class=&quot;configure-core&quot;&gt;&lt;/div&gt;        &lt;/div&gt;        &lt;div class=&quot;configure-border-2&quot;&gt;            &lt;div class=&quot;configure-core&quot;&gt;&lt;/div&gt;        &lt;/div&gt;        &lt;div class=&quot;loading-word&quot;&gt;加载中...&lt;/div&gt;    &lt;/div&gt;&lt;/div&gt;&lt;script&gt;    window.addEventListener(&#39;load&#39;, function()&amp;#123;        document.body.style.overflow = &#39;auto&#39;;        document.getElementById(&#39;loading-box&#39;).classList.add(&quot;loaded&quot;)    &amp;#125;, false)&lt;/script&gt;&lt;% &amp;#125; %&gt;</code></pre><p>在主题目录<code>/source/css</code>下添加<code>loading.css</code>文件</p><pre><code>#loading-box .loading-left-bg,#loading-box .loading-right-bg &amp;#123;  position: fixed;  z-index: 1000;  width: 50%;  height: 100%;  background-color: #37474f;  transition: all 0.5s;&amp;#125;#loading-box .loading-right-bg &amp;#123;  right: 0;&amp;#125;#loading-box &gt; .spinner-box &amp;#123;  position: fixed;  z-index: 1001;  display: flex;  justify-content: center;  align-items: center;  width: 100%;  height: 100vh;&amp;#125;#loading-box .spinner-box .configure-border-1 &amp;#123;  position: absolute;  padding: 3px;  width: 115px;  height: 115px;  background: #ffab91;  animation: configure-clockwise 3s ease-in-out 0s infinite alternate;&amp;#125;#loading-box .spinner-box .configure-border-2 &amp;#123;  left: -115px;  padding: 3px;  width: 115px;  height: 115px;  background: rgb(63, 249, 220);  transform: rotate(45deg);  animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;&amp;#125;#loading-box .spinner-box .loading-word &amp;#123;  position: absolute;  color: #ffffff;  font-size: 0.8rem;&amp;#125;#loading-box .spinner-box .configure-core &amp;#123;  width: 100%;  height: 100%;  background-color: #37474f;&amp;#125;div.loaded div.loading-left-bg &amp;#123;  transform: translate(-100%, 0);&amp;#125;div.loaded div.loading-right-bg &amp;#123;  transform: translate(100%, 0);&amp;#125;div.loaded div.spinner-box &amp;#123;  display: none !important; &amp;#125;@keyframes configure-clockwise &amp;#123;  0% &amp;#123;    transform: rotate(0);  &amp;#125;  25% &amp;#123;    transform: rotate(90deg);  &amp;#125;  50% &amp;#123;    transform: rotate(180deg);  &amp;#125;  75% &amp;#123;    transform: rotate(270deg);  &amp;#125;  100% &amp;#123;    transform: rotate(360deg);  &amp;#125;&amp;#125;@keyframes configure-xclockwise &amp;#123;  0% &amp;#123;    transform: rotate(45deg);  &amp;#125;  25% &amp;#123;    transform: rotate(-45deg);  &amp;#125;  50% &amp;#123;    transform: rotate(-135deg);  &amp;#125;  75% &amp;#123;    transform: rotate(-225deg);  &amp;#125;  100% &amp;#123;    transform: rotate(-315deg);  &amp;#125;&amp;#125;</code></pre><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><pre><code>hexo chexo ghexo d</code></pre><blockquote><p>参考链接：<a href="https://www.jianshu.com/p/a81a629e2f9a">https://www.jianshu.com/p/a81a629e2f9a</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 加载动画 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo博客文章添加标签样式</title>
       <link href="/posts/550.html"/>
       <url>/posts/550.html</url>
