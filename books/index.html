@@ -130,11 +130,34 @@
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5">
 </head>
 <!-- 提示：若要开启春节或者圣诞主题样式，直接给body标签添加一个class为
 class="themespring" -->
 <body>
+
+<!-- l加载动画 -->
+
+<div id="loading-box">
+    <div class="loading-left-bg"></div>
+    <div class="loading-right-bg"></div>
+    <div class="spinner-box">
+        <div class="configure-border-1">
+            <div class="configure-core"></div>
+        </div>
+        <div class="configure-border-2">
+            <div class="configure-core"></div>
+        </div>
+        <div class="loading-word">加载中...</div>
+    </div>
+</div>
+<script>
+    window.addEventListener('load', function(){
+        document.body.style.overflow = 'auto';
+        document.getElementById('loading-box').classList.add("loaded")
+    }, false)
+</script>
+
 
 <!-- leafacePlayer播放器 -->
   
@@ -1410,14 +1433,14 @@ h3:hover {
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-04-12
+                    2022-04-13
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-04-12
+                    2022-04-13
                 </div>
                 
 
@@ -2207,7 +2230,7 @@ for (var i = 0; i < firstpages.length; i++) {
         repo: 'gitalk-lssue',
         owner: 'haoqi7',
         admin: "haoqi7",
-        id: '2022-04-12T17-54-32',
+        id: '2022-04-13T04-00-30',
         distractionFreeMode: false,  // Facebook-like distraction free mode
         language: 'zh-CN',
         proxy: 'https://bold-sunset-4890.w00989988.workers.dev/?https://github.com/login/oauth/access_token'
@@ -2642,7 +2665,7 @@ for (var i = 0; i < firstpages.length; i++) {
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-12
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-13
                             </span>
                         <span class="publish-author">
                             
@@ -2707,7 +2730,7 @@ for (var i = 0; i < firstpages.length; i++) {
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-12
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-13
                             </span>
                         <span class="publish-author">
                             
