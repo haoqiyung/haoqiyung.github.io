@@ -142,13 +142,6 @@
   </url>
   
   <url>
-    <loc>https://haoqiyung.ml/colour/index.html</loc>
-    
-    <lastmod>2022-05-03</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://haoqiyung.ml/posts/undefined.html</loc>
     
     <lastmod>2022-05-03</lastmod>
@@ -157,6 +150,13 @@
   
   <url>
     <loc>https://haoqiyung.ml/posts/undefined.html</loc>
+    
+    <lastmod>2022-05-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://haoqiyung.ml/posts/b92e57a2.html</loc>
     
     <lastmod>2022-05-03</lastmod>
     
@@ -339,6 +339,13 @@
   
   <url>
     <loc>https://haoqiyung.ml/collection/index.html</loc>
+    
+    <lastmod>2022-05-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://haoqiyung.ml/colour/index.html</loc>
     
     <lastmod>2022-05-03</lastmod>
     
@@ -593,6 +600,20 @@
   
   <url>
     <loc>https://haoqiyung.ml/tags/%E7%B4%AB%E7%A0%82/</loc>
+    <lastmod>2022-05-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://haoqiyung.ml/tags/Blog/</loc>
+    <lastmod>2022-05-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://haoqiyung.ml/tags/Matery/</loc>
     <lastmod>2022-05-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
