@@ -1,4 +1,4 @@
-        var audio_music=document.getElementById('audio_music'); 
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script>        var audio_music=document.getElementById('audio_music'); 
         var audio_record=document.getElementById('audio_record'); 
         
         if(typeof(music_json['music_select'])!='undefined' && music_json['music_select']!='null' && music_json['music_select']!=''){
