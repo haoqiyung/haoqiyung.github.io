@@ -518,20 +518,6 @@ class="themespring" -->
       </li>
       
       <li>
-        <a href="/google">
-          
-          <span>Google</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/scholar">
-          
-          <span>GoogleScholar</span>
-        </a>
-      </li>
-      
-      <li>
         <a href="/circle">
           
           <span>Circle</span>
@@ -549,6 +535,20 @@ class="themespring" -->
         <a href="/colour">
           
           <span>Colour</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/uptime">
+          
+          <span>Uptime Robot</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/Windows">
+          
+          <span>Windows</span>
         </a>
       </li>
       
@@ -885,22 +885,6 @@ class="themespring" -->
               
                 <li>
 
-                  <a href="/google " style="margin-left:75px">
-				  
-		          <span>Google</span>
-                  </a>
-                </li>
-              
-                <li>
-
-                  <a href="/scholar " style="margin-left:75px">
-				  
-		          <span>GoogleScholar</span>
-                  </a>
-                </li>
-              
-                <li>
-
                   <a href="/circle " style="margin-left:75px">
 				  
 		          <span>Circle</span>
@@ -920,6 +904,22 @@ class="themespring" -->
                   <a href="/colour " style="margin-left:75px">
 				  
 		          <span>Colour</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/uptime " style="margin-left:75px">
+				  
+		          <span>Uptime Robot</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/Windows " style="margin-left:75px">
+				  
+		          <span>Windows</span>
                   </a>
                 </li>
               
@@ -1267,7 +1267,9 @@ class="themespring" -->
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(https://bu.dusays.com/2022/04/10/94d966cb71171.JPG)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -1438,7 +1440,7 @@ class="themespring" -->
                 </div>
                 <div class="tag-title center-align">
                     <div class="miaoshus">
-                        <div class="title center-align">“ 光影流年 ”</div>
+                        <div class="title center-align">“ 时光机器 ”</div>
                         “ 日子过的好快，还好我都记录下来了。 ”                      
                     </div>
                 </div>
