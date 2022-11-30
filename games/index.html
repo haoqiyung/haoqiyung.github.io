@@ -1481,21 +1481,21 @@ h3:hover {
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-11-07
+                    2022-11-30
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-11-07
+                    2022-11-30
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    795
+                    894
                 </div>
                 
 
@@ -1597,7 +1597,7 @@ h3:hover {
     <a class="hexo-douban-tab" id="hexo-douban-tab1" href="javascript:;"
        rel="external">
         在玩
-        (0)</a>
+        (3)</a>
     <a class="hexo-douban-tab" id="hexo-douban-tab2" href="javascript:;"
        rel="external">
         想玩
@@ -1610,6 +1610,48 @@ h3:hover {
 </div>
 <div>
     <div id="hexo-douban-item1">
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img9.doubanio.com/lpic/s29731123.jpg" referrerPolicy="no-referrer" /></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://www.douban.com/game/30147228/">绝地求生：刺激战场 PUBG MOBILE</a>
+        </div>
+        <div class="hexo-douban-meta">IPHN / IPAD / ANDR / 射击 / 2018-02-09 </div>
+        <div class="hexo-douban-meta">2022-03-10 /  射击 吃鸡 绝地求生 / ★★★★☆ 推荐 </div>
+        <div class="hexo-douban-comments"> 来刚枪！</div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img9.doubanio.com/lpic/s29543883.jpg" referrerPolicy="no-referrer" /></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://www.douban.com/game/26655376/">王者荣耀</a>
+        </div>
+        <div class="hexo-douban-meta">IPHN / IPAD / ANDR / 大型多人在线 / 2015-11-26 </div>
+        <div class="hexo-douban-meta">2022-03-10 /  竞速 太棒了 Moba /  </div>
+        <div class="hexo-douban-comments"> 召唤师峡谷等你</div>
+    </div>
+</div>
+
+
+        
+        <div class="hexo-douban-item">
+    <div class="hexo-douban-picture"><img src="/assets/douban-loading.gif" data-src="https://img9.doubanio.com/lpic/s28707720.jpg" referrerPolicy="no-referrer" /></div>
+    <div class="hexo-douban-info">
+        <div class="hexo-douban-title">
+            <a target="_blank" href="https://www.douban.com/game/26789825/">球球大作战</a>
+        </div>
+        <div class="hexo-douban-meta">PC / IPHN / IPAD / ANDR / WP / 大型多人在线 / 即时战略 / 策略 / 2015-06-12 </div>
+        <div class="hexo-douban-meta">2022-03-10 /  对战 太棒了 /  </div>
+        <div class="hexo-douban-comments"> </div>
+    </div>
+</div>
+
+
         
         <div class="hexo-douban-pagination">
     <a class="hexo-douban-button hexo-douban-firstpage" href="javascript:;"> 首页</a>
@@ -2139,7 +2181,7 @@ for (var i = 0; i < firstpages.length; i++) {
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-30
                             </span>
                         <span class="publish-author">
                             
@@ -2204,7 +2246,7 @@ for (var i = 0; i < firstpages.length; i++) {
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-30
                             </span>
                         <span class="publish-author">
                             
@@ -2725,7 +2767,29 @@ $(function () {
             document.getElementById('switchspring').style.display = "none";
             cancelguajian();
         }
+        else if(curMonth == 11 && curDate == 30) {
 
+            // 11月30日
+
+            document.getElementsByTagName('html')[0].classList.add('gray');
+
+            // document.body.classList.add('themespring');
+
+            document.getElementById('dtone').innerHTML = "11";
+
+            document.getElementById('dttwo').innerHTML = "30";
+
+            document.getElementById('jinianci').innerHTML = "今天是 “11月30日 ”
+
+            document.getElementById('popupbb').style.display = "block";
+
+            document.getElementById('switchchristmas').style.display = "none";
+
+            document.getElementById('switchspring').style.display = "none";
+
+            cancelguajian();
+
+        }
         else if(curMonth == 5 && curDate == 22) {
             // 2021年5月22日袁隆平院士逝世，云南大理发生6级地震
             document.getElementsByTagName('html')[0].classList.add('gray');

@@ -2423,7 +2423,29 @@ $(function () {
             document.getElementById('switchspring').style.display = "none";
             cancelguajian();
         }
+        else if(curMonth == 11 && curDate == 30) {
 
+            // 11月30日
+
+            document.getElementsByTagName('html')[0].classList.add('gray');
+
+            // document.body.classList.add('themespring');
+
+            document.getElementById('dtone').innerHTML = "11";
+
+            document.getElementById('dttwo').innerHTML = "30";
+
+            document.getElementById('jinianci').innerHTML = "今天是 “11月30日 ”
+
+            document.getElementById('popupbb').style.display = "block";
+
+            document.getElementById('switchchristmas').style.display = "none";
+
+            document.getElementById('switchspring').style.display = "none";
+
+            cancelguajian();
+
+        }
         else if(curMonth == 5 && curDate == 22) {
             // 2021年5月22日袁隆平院士逝世，云南大理发生6级地震
             document.getElementsByTagName('html')[0].classList.add('gray');
