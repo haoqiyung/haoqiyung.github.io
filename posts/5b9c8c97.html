@@ -132,11 +132,6 @@
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <head>
-<style type="text/css">
-html {
-filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
--webkit-filter: grayscale(100%);}
-</style>
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
 </head>
 <!-- 提示：若要开启春节或者圣诞主题样式，直接给body标签添加一个class为
@@ -2448,27 +2443,16 @@ $(function () {
             cancelguajian();
         }
         else if(curMonth == 12 && curDate == 1) {
-
             // 12月1日
-
             document.getElementsByTagName('html')[0].classList.add('gray');
-
             // document.body.classList.add('themespring');
-
             document.getElementById('dtone').innerHTML = "12";
-
             document.getElementById('dttwo').innerHTML = "1";
-
             document.getElementById('jinianci').innerHTML = "今天是 “12月1日 ”
-
             document.getElementById('popupbb').style.display = "block";
-
             document.getElementById('switchchristmas').style.display = "none";
-
             document.getElementById('switchspring').style.display = "none";
-
             cancelguajian();
-
         }
         else if(curMonth == 5 && curDate == 22) {
             // 2021年5月22日袁隆平院士逝世，云南大理发生6级地震
