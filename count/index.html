@@ -132,6 +132,10 @@
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 <head>
+<script>(function() {
+  var date = new Date();
+  if (date.getMonth() === 13 && date.getDate() === 1 && date.getFullYear() === 2022)
+  $('head').apPEnd('<style>html,body{filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%);}</style>')})();</script>
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
 </head>
 <!-- 提示：若要开启春节或者圣诞主题样式，直接给body标签添加一个class为
@@ -1406,7 +1410,7 @@ class="themespring" -->
         },
         xAxis: {
             type: 'category',
-            data: ["2022-02","2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11"]
+            data: ["2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12"]
         },
         yAxis: {
             type: 'value',
@@ -1416,7 +1420,7 @@ class="themespring" -->
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,12,10,3,0,0,0,0,0,0],
+                data: [12,10,3,0,0,0,0,0,0,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
