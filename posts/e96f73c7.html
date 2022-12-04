@@ -5,7 +5,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="/css/loading.css">
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: 渲染, hexo,紫砂壶,文献,论文,分享">
+    <meta name="keywords" content="api接口, hexo,紫砂壶,文献,论文,分享">
     <meta name="description" content="分享乐趣，分享美好">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -19,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签: 渲染 | 思想加油站</title>
+    <title>api接口 | 思想加油站</title>
     
     <script>
         // 隐藏
@@ -1176,126 +1176,914 @@ class="themespring" -->
 </div>
 <!-- 春节主题模式样式结束 -->
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-        <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                    
-                 
-            </div>
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['越努力，越幸运','The harder you work, the luckier you will be'],
-                        startDelay: 330,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 100,
-                        showCursor: true
-                    });
-                </script>
-                
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://bu.dusays.com/2022/05/06/62740dcc4de99.png')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">api接口</h1>
+                </div>
             </div>
         </div>
     </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        background-color: white;
+        width: 345px;
+        padding-left: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    }
+
+    .toc-widget .toc-title {
+        padding: 35px 0 15px 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+    
+    #toc-content {
+        height: calc(100vh - 300px);
+        overflow: scroll;
+
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+        bottom: 120px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <style>
+    #switchspring {
+        bottom: 223px!important;
+    }
+    @media only screen and (max-width: 601px) {
+        #switchspring {
+            bottom: 178px!important;
+        }
+    }
+    #switchchristmas {
+        bottom: 281px!important;
+    }
+    @media only screen and (max-width: 601px) {
+        #switchchristmas {
+            bottom: 235px!important;
+        }
+    }
+    .ititle {
+        margin: 15px 0;
+        text-align:center;
+        font-family: 'Architects Daughter', cursive;
+    }
+    .ipage {
+        line-height: 30px;
+        margin: 0 auto;
+        padding: 15px 32px 29px;
+        background-color: #f9f9f9;
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+        -moz-border-radius-bottomleft: 20px 500px;
+        -moz-border-radius-bottomright: 500px 30px;
+        -moz-border-radius-topright: 5px 100px;	
+        -webkit-border-bottom-left-radius: 20px 500px;
+        -webkit-border-bottom-right-radius: 64px 10px;
+        -webkit-border-top-right-radius: 5px 100px;    
+        border-bottom-left-radius: 20px 500px;
+        border-bottom-right-radius: 64px 10px;
+        border-top-right-radius: 5px 100px;           
+        -webkit-background-size: 100% 30px;
+        -moz-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.2);
+        text-shadow: 0 1px 0 #F6EF97;
+        position: relative;
+    }
+.izhengwen {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: auto;
+    background: repeating-linear-gradient(to bottom, #f9f9f9, #f9f9f9 31px, #6BA2D8 1px, #f9f9f9);
+    background-size: 100% 32px;
+}
+.izhengwen p {
+    letter-spacing: .1rem;
+}
+#articleContent p {
+    margin: 0
+}
+.ititle {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.45rem!important;
+    padding: 10px auto;
+}
+.izhengwen p {
+    position: relative;
+    line-height: 2.2rem!important;
+    text-indent: 2em;
+    font-family: 'Architects Daughter', cursive!important;
+    font-size: 1.45rem!important;
+}
+.ipage::before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    right: 52px;
+    z-index: 4;
+    width: 4px;
+    height: 100%;
+    border-left: 1px solid #fca1a1;
+}
+.izhengwen p:nth-child(odd):before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -16px;
+    z-index: 3;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.26);
+}
+.ipage:after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 52px;
+    z-index: 3;
+    width: 4px;
+    height: 100%;
+    border-left: 4px double #fca1a1;
+}
+.ipage p {
+    padding: 0 2em;
+    color: #333!important;
+}
+body.dark .ipage {
+    opacity: 0.85;
+}
+/*小屏幕下(手机类)的样式*/
+@media only screen and (max-width: 600px) {
+    .ipage {
+        padding: 15px 23px 29px;
+    }
+    .ipage:after {
+        left: 36px;
+    }
+    .ipage::before {
+        right: 36px;    
+    }
+    .ipage p, .ititle {
+        padding: 0 0.9em;
+    }
+
+}
+h3 {
+    font-size: 1.32rem;
+    font-weight: 400;
+    color: #101012;
+    transition: 0.8s;
+    cursor: pointer;
+}
+h3:hover {
+    transform: translateX(15px);
+}
+</style>
+
+<!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        
+        <div class="card-content article-info">
+            <!-- 福袋按钮 -->
+            <div class="caishendeng">        
+                <div class="guguxian wenzhangxian">
+                    <img class="caishenpic gugus" src="/medias/spring-img/caishen.png" />
+                </div>              
+            </div>
+            <!-- 圣诞按钮 -->
+            <div class="shengdandeng">        
+                <div class="shengdanxian" style="left: 50%;">
+                    <img class="shengdanpic fudai" src="/medias/christmas-img/shengdanren4.png" />
+                </div>              
+            </div>
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/API/">
+                                <span class="chip bg-color">API</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%88%86%E4%BA%AB%E7%AF%87/" class="post-category">
+                                分享篇
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-12-03
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2022-12-04
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    251
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    1 分
+                </div>
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="API接口"><a href="#API接口" class="headerlink" title="API接口"></a>API接口</h1><h1 id="舔狗日记接口"><a href="#舔狗日记接口" class="headerlink" title="舔狗日记接口"></a>舔狗日记接口</h1><p><a target="_blank" rel="noopener" href="http://api.tianapi.com/tiangou/index?key=自己的key">http://api.tianapi.com/tiangou/index?key=自己的key</a><br><a target="_blank" rel="noopener" href="https://api.heroa.cn:3403/random/diary/">https://api.heroa.cn:3403/random/diary/</a></p>
+<h1 id="彩虹屁接口"><a href="#彩虹屁接口" class="headerlink" title="彩虹屁接口"></a>彩虹屁接口</h1><p><a target="_blank" rel="noopener" href="http://api.tianapi.com/caihongpi/index?key=自己的key">http://api.tianapi.com/caihongpi/index?key=自己的key</a></p>
+<h1 id="60s读懂世界"><a href="#60s读懂世界" class="headerlink" title="60s读懂世界"></a>60s读懂世界</h1><p><a target="_blank" rel="noopener" href="https://api.qqsuu.cn/api/dm-60s">https://api.qqsuu.cn/api/dm-60s</a><br><a target="_blank" rel="noopener" href="https://api.heroa.cn:3403/convenience/sixty_second_read_world/">https://api.heroa.cn:3403/convenience/sixty_second_read_world/</a><br><a target="_blank" rel="noopener" href="http://dwz.2xb.cn/zaob">http://dwz.2xb.cn/zaob</a></p>
+<h1 id="查询天气接口"><a href="#查询天气接口" class="headerlink" title="查询天气接口"></a>查询天气接口</h1><p> <a target="_blank" rel="noopener" href="https://www.tianqiapi.com/free/day?appid=自己的key&amp;appsecret=自己的key&amp;city=">https://www.tianqiapi.com/free/day?appid=自己的key&amp;appsecret=自己的key&amp;city=</a></p>
+<h1 id="美女视频接口"><a href="#美女视频接口" class="headerlink" title="美女视频接口"></a>美女视频接口</h1><p> <a target="_blank" rel="noopener" href="https://tucdn.wpon.cn/api-girl/">https://tucdn.wpon.cn/api-girl/</a></p>
+<h1 id="当日安全资讯"><a href="#当日安全资讯" class="headerlink" title="当日安全资讯"></a>当日安全资讯</h1><p>secwiki_url = <a target="_blank" rel="noopener" href="https://www.sec-wiki.com/news/rss">https://www.sec-wiki.com/news/rss</a><br>freebuf_url = <a target="_blank" rel="noopener" href="https://www.freebuf.com/feed">https://www.freebuf.com/feed</a><br>qax_url = <a target="_blank" rel="noopener" href="https://forum.butian.net/Rss">https://forum.butian.net/Rss</a><br>anquanke_url = <a target="_blank" rel="noopener" href="https://www.anquanke.com/knowledge">https://www.anquanke.com/knowledge</a></p>
+<h1 id="搞笑段子接口"><a href="#搞笑段子接口" class="headerlink" title="搞笑段子接口"></a>搞笑段子接口</h1><p> <a target="_blank" rel="noopener" href="https://www.mxnzp.com/api/jokes/list?app_id=自己的key&amp;app_secret=自己的key&amp;page=">https://www.mxnzp.com/api/jokes/list?app_id=自己的key&amp;app_secret=自己的key&amp;page=</a></p>
+<h1 id="今日黄历接口"><a href="#今日黄历接口" class="headerlink" title="今日黄历接口"></a>今日黄历接口</h1><p>zodiac_url = <a target="_blank" rel="noopener" href="https://www.mxnzp.com/api/holiday/single/">https://www.mxnzp.com/api/holiday/single/</a><br>allow_token = ?ignoreHoliday=false&amp;app_id=自己的key&amp;app_secret=自己的key</p>
+<h1 id="早安寄语接口"><a href="#早安寄语接口" class="headerlink" title="早安寄语接口"></a>早安寄语接口</h1><p> <a target="_blank" rel="noopener" href="https://api.qqsuu.cn/api/dm-zaoan">https://api.qqsuu.cn/api/dm-zaoan</a></p>
+<h1 id="星座运势"><a href="#星座运势" class="headerlink" title="星座运势"></a>星座运势</h1><p> <a target="_blank" rel="noopener" href="http://api.tianapi.com/star/index?key=自己的key&amp;astro=">http://api.tianapi.com/star/index?key=自己的key&amp;astro=</a></p>
+<h1 id="ai对话机器人接口"><a href="#ai对话机器人接口" class="headerlink" title="ai对话机器人接口"></a>ai对话机器人接口</h1><p><a target="_blank" rel="noopener" href="http://api.qingyunke.com/api.php?key=free&amp;msg=">http://api.qingyunke.com/api.php?key=free&amp;msg=</a></p>
+<h1 id="语录"><a href="#语录" class="headerlink" title="语录"></a>语录</h1><p> <a target="_blank" rel="noopener" href="https://api.heroa.cn:3403/random/quotation/">https://api.heroa.cn:3403/random/quotation/</a></p>
+<h1 id="历史今天"><a href="#历史今天" class="headerlink" title="历史今天"></a>历史今天</h1><p><a target="_blank" rel="noopener" href="https://api.heroa.cn:3403/convenience/history_today/">https://api.heroa.cn:3403/convenience/history_today/</a></p>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">HaoQi</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://haoqiyung.ml/posts/e96f73c7.html">https://haoqiyung.ml/posts/e96f73c7.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">HaoQi</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/API/">
+                                    <span class="chip bg-color">API</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="qq,wechat,weibo,douban" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/zan.png" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/zan.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+    <div class="livere-card card" data-aos="fade-up">
+    <!-- 来必力City版安装代码 -->
+    <div id="lv-container" class="card-content" data-id="city" data-uid="MTAyMC81NTU3Ni8zMjA0Mw==">
+        <script type="text/javascript">
+            (function (d, s) {
+                let j, e = d.getElementsByTagName(s)[0];
+                if (typeof LivereTower === 'function') {
+                    return;
+                }
+
+                j = d.createElement(s);
+                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                j.async = true;
+
+                e.parentNode.insertBefore(j, e);
+            })(document, 'script');
+        </script>
+        <noscript>为正常使用来必力评论功能请激活JavaScript。</noscript>
+    </div>
+    <!-- City版安装代码已完成 -->
+</div>
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/posts/e96f73c7.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://bu.dusays.com/2022/05/06/62740dcc4de99.png" class="responsive-img" alt="api接口">
+                        
+                        <!-- 福袋按钮 -->
+                        <div class="caishendeng">        
+                            <div class="caishenxian wenzhangxian">
+                                <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
+                            </div>              
+                        </div>
+                        <span class="card-title">
+                          <!-- 文章卡片hover线条效果 -->
+                          <span class="titlesline"></span>
+                          api接口
+                        </span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            API接口舔狗日记接口http://api.tianapi.com/tiangou/index?key=自己的keyhttps://api.heroa.cn:3403/random/diary/
+彩虹屁接口http://api.tianap
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-03
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%88%86%E4%BA%AB%E7%AF%87/" class="post-category">
+                                    分享篇
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/API/">
+                        <span class="chip bg-color">API</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/posts/undefined.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://bu.dusays.com/2022/04/08/c7a7b91f0017f.jpg" class="responsive-img" alt="scholar">
+                        
+                        <!-- 福袋按钮 -->
+                        <div class="caishendeng">        
+                            <div class="caishenxian wenzhangxian">
+                                <img class="caishenpic lala" src="/medias/spring-img/fish.png" />
+                            </div>              
+                        </div>
+                        <span class="card-title">
+                          <!-- 文章卡片hover线条效果 -->
+                          <span class="titlesline"></span>
+                          scholar
+                        </span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            google学术镜像网址
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-08
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%96%87%E7%8C%AE%E7%AF%87/" class="post-category">
+                                    文献篇
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/scholar/">
+                        <span class="chip bg-color">scholar</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+<style>
+  .articles .row .article {
+    position: relative;
+  }
+</style>
+
 </div>
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('60')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 思想加油站<br />'
+            + '文章作者: HaoQi<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
 </script>
 
 
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+
     </div>
-    <div class="mohuxiaoguo"></div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
 </div>
 
 
-<style>
-    .bg-cover {
-        height: 44vh;
-    }
-    #sma {
-        bottom: 118px;
-    }
-    .bg-cover::before {
-        background-image: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/grid.png);
-    }
-</style>
-<main class="content">
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
     
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Hexo, 渲染">
-                <div class="card">
-                    <a href="/posts/17a22bd2.html">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="https://bu.dusays.com/2022/05/06/62740dd154202.jpg" class="responsive-img" alt="Hexo-绕过渲染">
-                            
-                            <span class="card-title">
-                              <!-- 文章卡片hover线条效果 -->
-                              <span class="titlesline">
-                                <style>
-                                  .titlesline {
-                                    width: 0px;
-                                    height: 4px;
-                                    background-color: pink;
-                                    border-radius: 2px;
-                                    position: absolute;
-                                    top: 10px;
-                                    left: 24px;
-                                  }
-                                  body.dark .titlesline {
-                                    filter: brightness(.7);
-                                  }
-                                  article .card .titlesline {
-                                    transition: all 0.36s ease;
-                                  }
-                                  article .card-image:hover .titlesline {
-                                    width: 36px;
-                                  }
-                                </style>
-                              </span>
-                              Hexo-绕过渲染
-                            </span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-11
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/" class="post-category">
-                                博客篇
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </article>
 </main>
 
 
